@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Mon, 27 Dec 2021 11:12:27 +0800
+Source: cutefish-debinstaller
+Binary: cutefish-debinstaller cutefish-debinstaller-dbgsym
+Architecture: amd64
+Version: 0.8
+Distribution: unstable
+Urgency: medium
+Maintainer: CutefishOS <support@cutefishos.com>
+Changed-By: CutefishOS Packaging Team <support@cutefishos.com>
+Description:
+ cutefish-debinstaller - CutefishOS Deb Installer
+Changes:
+ cutefish-debinstaller (0.8) unstable; urgency=medium
+ .
+   * Fix some issues
+Checksums-Sha1:
+ 5959819d825e4b566b9b13e6954f36a59f30137c 457508 cutefish-debinstaller-dbgsym_0.8_amd64.deb
+ 8010917c18b868bfb38d9076e79a9e1483635ab6 11029 cutefish-debinstaller_0.8_amd64.buildinfo
+ 77c4b6e98f93847edf0e7df2e8dc7041b6dbd737 24332 cutefish-debinstaller_0.8_amd64.deb
+Checksums-Sha256:
+ f3f62b382d6f9b88125d3e7422b5431bea75561095ce9e2ba554b964d85b50fc 457508 cutefish-debinstaller-dbgsym_0.8_amd64.deb
+ 4ed1e962d805650251097ad6849bb053a38941cd8d4143817c5c37eb3be17467 11029 cutefish-debinstaller_0.8_amd64.buildinfo
+ bbeb46c2fdc87d30dc5a02d82cc8a53f39b85d0678e69b8cd08984bd23000550 24332 cutefish-debinstaller_0.8_amd64.deb
+Files:
+ a476753e9d3076a5f3437c03336966d5 457508 debug optional cutefish-debinstaller-dbgsym_0.8_amd64.deb
+ a8d5b65d1ce61b6f591c7af0e2965e53 11029 devel optional cutefish-debinstaller_0.8_amd64.buildinfo
+ c541fa9dcd14c93a48cf994a9dc5ba0c 24332 devel optional cutefish-debinstaller_0.8_amd64.deb

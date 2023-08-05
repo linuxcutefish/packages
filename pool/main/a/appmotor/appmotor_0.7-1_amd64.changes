@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Sun, 16 Jan 2022 18:12:05 +0800
+Source: appmotor
+Binary: appmotor appmotor-dbgsym
+Architecture: amd64
+Version: 0.7-1
+Distribution: UNRELEASED
+Urgency: medium
+Maintainer: CutefishOS <cutefishos@foxmail.com>
+Changed-By: CutefishOS Packaging Team <support@cutefishos.com>
+Description:
+ appmotor   - CutefishOS Appmotor
+Changes:
+ appmotor (0.7-1) UNRELEASED; urgency=medium
+ .
+   * Initial Release.
+Checksums-Sha1:
+ 2096f6fd67635232aa0bd98c547dde52454aa86f 643876 appmotor-dbgsym_0.7-1_amd64.deb
+ e93aa9bb0cf94900cdaae316a0801a6d620751dc 9996 appmotor_0.7-1_amd64.buildinfo
+ e9a21ffb7d4c652cfe30f2a244df105c4fbf59ce 59216 appmotor_0.7-1_amd64.deb
+Checksums-Sha256:
+ f1db3fbac27712c21b9bf7183a10ab4bbaf5dcf23003abe8d41fada29ddab7c3 643876 appmotor-dbgsym_0.7-1_amd64.deb
+ 8f4efe563221f3231e3b84151b45d26b0db2107f4bdbfb3823a5d8bc15b9b8a1 9996 appmotor_0.7-1_amd64.buildinfo
+ f57be3774c39a5d491cd489e94d059551bf6deb50635b056b5c28e154353a149 59216 appmotor_0.7-1_amd64.deb
+Files:
+ 761da9a29f7a05a7834f616fe06d5520 643876 debug optional appmotor-dbgsym_0.7-1_amd64.deb
+ 6d08e893555c98fe3666f24d459caafb 9996 devel optional appmotor_0.7-1_amd64.buildinfo
+ 6b7490e18873f001c1da9540d497f3a3 59216 devel optional appmotor_0.7-1_amd64.deb

@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Sun, 16 Jan 2022 18:12:05 +0800
+Source: texteditor
+Binary: texteditor
+Architecture: amd64
+Version: 0.7-1
+Distribution: UNRELEASED
+Urgency: medium
+Maintainer: CutefishOS <cutefishos@foxmail.com>
+Changed-By: CutefishOS Packaging Team <support@cutefishos.com>
+Description:
+ texteditor - CutefishOS Texteditor
+Changes:
+ texteditor (0.7-1) UNRELEASED; urgency=medium
+ .
+   * Initial Release.
+Checksums-Sha1:
+ dd8a42fe71ad4c252c4065330555df10e7090458 9221 texteditor_0.7-1_amd64.buildinfo
+ b3926fb71677500111456c0d86299f6a4f843704 2012 texteditor_0.7-1_amd64.deb
+Checksums-Sha256:
+ 7832322d165fad5b5f8910c277c0698597c859c885b643631ab49820f6f1445a 9221 texteditor_0.7-1_amd64.buildinfo
+ 466d433bad0cc799be60e039ff4a6c241a564bc8fbd60cff214fe94552cc85aa 2012 texteditor_0.7-1_amd64.deb
+Files:
+ 617c0902d03029fec60d07ed2f05829c 9221 devel optional texteditor_0.7-1_amd64.buildinfo
+ 234b35e8ba098dc457f9a9cba7ca54e7 2012 devel optional texteditor_0.7-1_amd64.deb

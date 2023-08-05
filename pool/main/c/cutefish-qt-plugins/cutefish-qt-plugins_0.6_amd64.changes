@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Sun, 21 Nov 2021 13:52:29 +0800
+Source: cutefish-qt-plugins
+Binary: cutefish-qt-plugins cutefish-qt-plugins-dbgsym
+Architecture: amd64
+Version: 0.6
+Distribution: UNRELEASED
+Urgency: high
+Maintainer: CutefishOS <support@cutefishos.com>
+Changed-By: CutefishOS Packaging Team <support@cutefishos.com>
+Description:
+ cutefish-qt-plugins - CutefishOS Qt Plugins
+Changes:
+ cutefish-qt-plugins (0.6) UNRELEASED; urgency=high
+ .
+   * Initial release (CutefishOS)  <support@cutefishos.com>
+Checksums-Sha1:
+ ecaea7236d00e46fbd3b21f72784f7923d0ac7a9 3743220 cutefish-qt-plugins-dbgsym_0.6_amd64.deb
+ 4fabffe0bdd14823d2fdd41cf2774ff1db1a5483 13298 cutefish-qt-plugins_0.6_amd64.buildinfo
+ 4c7b07aeeb0775bdfbc5eca2db979f7fd3ccc2f5 144404 cutefish-qt-plugins_0.6_amd64.deb
+Checksums-Sha256:
+ 42e4ddbb94e36e5c60f9237462622878474d316bf3909fbac5ee471ffe356cbe 3743220 cutefish-qt-plugins-dbgsym_0.6_amd64.deb
+ afb9b58b034a763b524f4f12c1cbdae70d74d80bc56b82b7dcec9f88a01ec195 13298 cutefish-qt-plugins_0.6_amd64.buildinfo
+ 55d3810ba92fbf8828d6ad8b893b5c01d15a3b4c549ce6d004612bc986e2677b 144404 cutefish-qt-plugins_0.6_amd64.deb
+Files:
+ 52ad83a0888a6b42d9f828e22a511843 3743220 debug optional cutefish-qt-plugins-dbgsym_0.6_amd64.deb
+ 31ace8c9e96b4f574114e57bbc7e91ca 13298 devel optional cutefish-qt-plugins_0.6_amd64.buildinfo
+ 59a7f763139c52771c8e91f149045636 144404 devel optional cutefish-qt-plugins_0.6_amd64.deb

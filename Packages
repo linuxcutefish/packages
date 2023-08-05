@@ -1,0 +1,971 @@
+Package: appmotor
+Version: 0.7-1
+Architecture: amd64
+Maintainer: CutefishOS <cutefishos@foxmail.com>
+Installed-Size: 234
+Depends: libc6 (>= 2.17), libcap2 (>= 1:2.10), libdbus-1-3 (>= 1.9.14), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.2.0) | libqt5gui5-gles (>= 5.2.0), libqt5quick5 (>= 5.0.2) | libqt5quick5-gles (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2), libsystemd0
+Filename: ./pool/main/a/appmotor/appmotor_0.7-1_amd64.deb
+Size: 59216
+MD5sum: 6b7490e18873f001c1da9540d497f3a3
+SHA1: e9a21ffb7d4c652cfe30f2a244df105c4fbf59ce
+SHA256: f57be3774c39a5d491cd489e94d059551bf6deb50635b056b5c28e154353a149
+Section: devel
+Priority: optional
+Homepage: https://github.com/cutefishos/appmotor
+Description: CutefishOS Appmotor
+
+Package: appmotor
+Version: 0.8
+Architecture: amd64
+Maintainer: CutefishOS <cutefishos@foxmail.com>
+Installed-Size: 234
+Depends: libc6 (>= 2.17), libcap2 (>= 1:2.10), libdbus-1-3 (>= 1.9.14), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.2.0) | libqt5gui5-gles (>= 5.2.0), libqt5quick5 (>= 5.0.2) | libqt5quick5-gles (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2), libsystemd0
+Filename: ./pool/main/a/appmotor/appmotor_0.8_amd64.deb
+Size: 59208
+MD5sum: d8c100954f4d37f487cd29395d4f5c86
+SHA1: caef351c8a4eb9ba2b0b5ffb85d7aeb9405ff03b
+SHA256: b87510808ad0be29fab3c404c303d3d31f9b17a3fa080384760b457f442c017b
+Section: devel
+Priority: optional
+Homepage: https://github.com/cutefishos/appmotor
+Description: CutefishOS Appmotor
+
+Package: appmotor-dbgsym
+Source: appmotor
+Version: 0.7-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: CutefishOS <cutefishos@foxmail.com>
+Installed-Size: 688
+Depends: appmotor (= 0.7-1)
+Filename: ./pool/main/a/appmotor/appmotor-dbgsym_0.7-1_amd64.deb
+Size: 643876
+MD5sum: 761da9a29f7a05a7834f616fe06d5520
+SHA1: 2096f6fd67635232aa0bd98c547dde52454aa86f
+SHA256: f1db3fbac27712c21b9bf7183a10ab4bbaf5dcf23003abe8d41fada29ddab7c3
+Section: debug
+Priority: optional
+Description: debug symbols for appmotor
+Build-Ids: b787361d51c07eaf5ca73e9c6c69910bf50c09dc bc11a94f14db8ecaa35f9652de5438d5687dbf5e be7b6404ee423d02475ed609599856805ce31b17 cef9d16b34fc4da06f058d81455a76fcd0260522
+
+Package: appmotor-dbgsym
+Source: appmotor
+Version: 0.8
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: CutefishOS <cutefishos@foxmail.com>
+Installed-Size: 688
+Depends: appmotor (= 0.8)
+Filename: ./pool/main/a/appmotor/appmotor-dbgsym_0.8_amd64.deb
+Size: 643876
+MD5sum: 2c30162ba1f9b5aea1ddf945b886fcad
+SHA1: 4c40e896cf9de6f4ad850caccf63ccf19a2d0927
+SHA256: 21e30ecbc42a48227cf480581dc5125d0c1569bdf427d00758f135b13ffa4362
+Section: debug
+Priority: optional
+Description: debug symbols for appmotor
+Build-Ids: b787361d51c07eaf5ca73e9c6c69910bf50c09dc bc11a94f14db8ecaa35f9652de5438d5687dbf5e be7b6404ee423d02475ed609599856805ce31b17 cef9d16b34fc4da06f058d81455a76fcd0260522
+
+Package: cutefish-calculator
+Version: 0.6-1
+Architecture: amd64
+Maintainer: CutefishOS <cutefishos@foxmail.com>
+Installed-Size: 247
+Depends: qml-module-qtquick-controls2, qml-module-qtquick2, qml-module-qtquick-layouts, qml-module-qt-labs-platform, qml-module-qt-labs-settings, qml-module-qtqml, qml-module-qtquick-window2, qml-module-qtquick-shapes, qml-module-qtquick-dialogs, libc6 (>= 2.14), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5qml5 (>= 5.1.0), libstdc++6 (>= 5.2)
+Filename: ./pool/main/c/cutefish-calculator/cutefish-calculator_0.6-1_amd64.deb
+Size: 82852
+MD5sum: bc793393d062acbb73d78569f75dfbc7
+SHA1: f9c5853365ec4a3f8af91c4201b37aba8d698c94
+SHA256: 739587e24125852a48b0fddb3ba858691783adcd34188829fe277b1545fe5d3c
+Section: devel
+Priority: optional
+Homepage: https://github.com/cutefishos/calculator
+Description: CutefishOS Calculator
+
+Package: cutefish-calculator
+Version: 0.8
+Architecture: amd64
+Maintainer: CutefishOS <cutefishos@foxmail.com>
+Installed-Size: 247
+Depends: qml-module-qtquick-controls2, qml-module-qtquick2, qml-module-qtquick-layouts, qml-module-qt-labs-platform, qml-module-qt-labs-settings, qml-module-qtqml, qml-module-qtquick-window2, qml-module-qtquick-shapes, qml-module-qtquick-dialogs, libc6 (>= 2.14), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5qml5 (>= 5.1.0), libstdc++6 (>= 5.2)
+Filename: ./pool/main/c/cutefish-calculator/cutefish-calculator_0.8_amd64.deb
+Size: 82836
+MD5sum: 232aaebeef79ecdc96031d5c1e477ddc
+SHA1: 1306ad0592de1d75bc4333652033ae04f2b93090
+SHA256: 9396485fc2803d3b7f8c4a765a3e16bd9484c5a459699c9b76e6a8032d04bede
+Section: devel
+Priority: optional
+Homepage: https://github.com/cutefishos/calculator
+Description: CutefishOS Calculator
+
+Package: cutefish-calculator-dbgsym
+Source: cutefish-calculator
+Version: 0.6-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: CutefishOS <cutefishos@foxmail.com>
+Installed-Size: 1015
+Depends: cutefish-calculator (= 0.6-1)
+Filename: ./pool/main/c/cutefish-calculator/cutefish-calculator-dbgsym_0.6-1_amd64.deb
+Size: 980824
+MD5sum: c4779285c4a58aa73774d238833e9a0b
+SHA1: 744639b5454d78085ecee414cf9d6b3b3ca898ce
+SHA256: 703842c5a634d894abceca13b3e0ff4fa9286ce4d2f8070bc364e0d1e9c3429c
+Section: debug
+Priority: optional
+Description: debug symbols for cutefish-calculator
+Build-Ids: e6c375b62fd44cad7f8105f9dee477231fc3739e
+
+Package: cutefish-calculator-dbgsym
+Source: cutefish-calculator
+Version: 0.8
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: CutefishOS <cutefishos@foxmail.com>
+Installed-Size: 1015
+Depends: cutefish-calculator (= 0.8)
+Filename: ./pool/main/c/cutefish-calculator/cutefish-calculator-dbgsym_0.8_amd64.deb
+Size: 980824
+MD5sum: b2086e354d40b09b9053f0da75b19002
+SHA1: 79218c244eff7c74ff59b66dd743f61744ae3645
+SHA256: f584d3d5b98dd4014e88a4c1e54dbad45d03e95c8e397fe1b49c7188a92770d2
+Section: debug
+Priority: optional
+Description: debug symbols for cutefish-calculator
+Build-Ids: e6c375b62fd44cad7f8105f9dee477231fc3739e
+
+Package: cutefish-core
+Version: 0.8
+Architecture: amd64
+Maintainer: CutefishOS <cutefishos@foxmail.com>
+Installed-Size: 1519
+Depends: accountsservice, qml-module-qtquick-controls2, qml-module-qtquick2, qml-module-qtquick-layouts, qml-module-qt-labs-platform, qml-module-qt-labs-settings, qml-module-qtqml, qml-module-qtquick-window2, qml-module-qtquick-shapes, appmenu-gtk2-module, appmenu-gtk3-module, libc6 (>= 2.14), libgcc-s1 (>= 3.0), libkf5coreaddons5 (>= 4.97.0), libkf5idletime5 (>= 4.96.0), libkf5windowsystem5 (>= 5.25.0), libpolkit-qt5-1-1 (>= 0.112.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.10.0) | libqt5gui5-gles (>= 5.10.0), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.15.1) | libqt5quick5-gles (>= 5.15.1), libqt5widgets5 (>= 5.0.2), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5), libx11-6 (>= 2:1.2.99.901), libx11-xcb1 (>= 2:1.7.2), libxcb-composite0, libxcb-damage0, libxcb-dpms0, libxcb-image0 (>= 0.2), libxcb-record0, libxcb-shape0, libxcb-util1 (>= 0.4.0), libxcb1 (>= 1.6), libxcursor1 (>> 1.1.2), libxi6 (>= 2:1.2.99.4), libxtst6
+Filename: ./pool/main/c/cutefish-core/cutefish-core_0.8_amd64.deb
+Size: 326568
+MD5sum: fec65f67401ebe6668703bf1aa008733
+SHA1: 786b4638d4d2e7dacf39cf5129de2673dce823b6
+SHA256: bede0a6eb6d2359716d21768fcf6b3f7b6335498c4857e4ad9cc469e8befd3b6
+Section: devel
+Priority: optional
+Homepage: https://github.com/cutefishos/core
+Description: CutefishOS System Components
+
+Package: cutefish-core-dbgsym
+Source: cutefish-core
+Version: 0.8
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: CutefishOS <cutefishos@foxmail.com>
+Installed-Size: 15308
+Depends: cutefish-core (= 0.8)
+Filename: ./pool/main/c/cutefish-core/cutefish-core-dbgsym_0.8_amd64.deb
+Size: 15153592
+MD5sum: 7437d5e9879d394ecd0ac98e7c3ff3e6
+SHA1: 1ce0b8a8d8e53f2186477f4627e29135b9623250
+SHA256: f279c542e3ab6ef8ed98b58bcbceb5a9989aa3a6f5a24c5ce08179429ee00f01
+Section: debug
+Priority: optional
+Description: debug symbols for cutefish-core
+Build-Ids: 04db71845128dd1621ae480cad91f35e689979a1 0cdc05d609ca58bc36bb92e32e31d4c98af59ee7 0e47b91232fae8915ed1e35fa4e69a028c87c63c 1d03e8b04b210b2350080a4403e0d6c062adca21 21d6a0b0f7958afa7f244d11c3be2f32cf468337 40e0a6f9db5bb7cd7bea089cccbe1987fc22ce4b 624677a38ec932eec65f261a31ac133931e8add1 65bb395d4257566dd3aab185646710a6c172b3b5 7582a39c32b05882192d7e4f1e88588dab17c5e8 89b2f7d466b6e99592e8ca7034be18b821342d40 b6e8ae99d987f26bd3f11efc883b4320c7295fe2 c198dafd9cecefd851131b85d690b4fb5a689227 f2a4e3727056d3cd05455fa6b7143977532ad631 fd37aa975a3a92a873e5e6d05fbcb9bf3ebfe94c
+
+Package: cutefish-daemon
+Version: 0.8
+Architecture: amd64
+Maintainer: CutefishOS <support@cutefishos.com>
+Installed-Size: 51
+Depends: qml-module-qtquick-controls2, qml-module-qtquick2, qml-module-qtquick-layouts, qml-module-qt-labs-platform, qml-module-qt-labs-settings, qml-module-qtqml, qml-module-qtquick-window2, qml-module-qtquick-shapes, libc6 (>= 2.14), libgcc-s1 (>= 3.0), libqapt3 (>= 3.0.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libstdc++6 (>= 4.1.1)
+Filename: ./pool/main/c/cutefish-daemon/cutefish-daemon_0.8_amd64.deb
+Size: 11844
+MD5sum: b5c8c8d772a38694f8477e95834025b9
+SHA1: 4c85ddcee6c06bac2b23a3b94908ffa80908e776
+SHA256: b9814b891791e1353e5e069bf30d17ea197f581ec34e977c3ac7e18fbe4d8946
+Section: devel
+Priority: optional
+Homepage: http://cutefishos.com
+Description: CutefishOS Daemon.
+
+Package: cutefish-daemon-dbgsym
+Source: cutefish-daemon
+Version: 0.8
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: CutefishOS <support@cutefishos.com>
+Installed-Size: 516
+Depends: cutefish-daemon (= 0.8)
+Filename: ./pool/main/c/cutefish-daemon/cutefish-daemon-dbgsym_0.8_amd64.deb
+Size: 505500
+MD5sum: cdbdef35bc590f94a3c927a48368bda5
+SHA1: 3c25444364407a736e89725cb81f9e7b49f753ac
+SHA256: 4ad763b08702d38a910acf90fa0487e011ce0f23894ffe67673556035a6f0e7b
+Section: debug
+Priority: optional
+Description: debug symbols for cutefish-daemon
+Build-Ids: 02734722e9a7f9c869e6e9c83226515fe7b5ab1d
+
+Package: cutefish-debinstaller
+Version: 0.7-1
+Architecture: amd64
+Maintainer: CutefishOS <support@cutefishos.com>
+Installed-Size: 92
+Depends: qml-module-qtquick-controls2, qml-module-qtquick2, qml-module-qtquick-layouts, qml-module-qt-labs-platform, qml-module-qt-labs-settings, qml-module-qtqml, qml-module-qtquick-window2, qml-module-qtquick-shapes, qml-module-qtquick-dialogs, libapt-pkg6.0 (>= 0.8.0), libc6 (>= 2.14), libgcc-s1 (>= 3.0), libqapt3 (>= 3.0.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5qml5 (>= 5.1.0), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2)
+Filename: ./pool/main/c/cutefish-debinstaller/cutefish-debinstaller_0.7-1_amd64.deb
+Size: 24344
+MD5sum: cd83a8e21fc1a8383ebb3a84862cb828
+SHA1: 68e23c49e6c6a61abc94d79a39b58f799b9f1fc8
+SHA256: 9a54285975b4b40d068763c09d1fea375cf0b689971eb40b3e70c5389ba42a90
+Section: devel
+Priority: optional
+Homepage: https://cutefishos.com/
+Description: CutefishOS Deb Installer
+
+Package: cutefish-debinstaller
+Version: 0.8
+Architecture: amd64
+Maintainer: CutefishOS <support@cutefishos.com>
+Installed-Size: 92
+Depends: qml-module-qtquick-controls2, qml-module-qtquick2, qml-module-qtquick-layouts, qml-module-qt-labs-platform, qml-module-qt-labs-settings, qml-module-qtqml, qml-module-qtquick-window2, qml-module-qtquick-shapes, qml-module-qtquick-dialogs, libapt-pkg6.0 (>= 0.8.0), libc6 (>= 2.14), libgcc-s1 (>= 3.0), libqapt3 (>= 3.0.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5qml5 (>= 5.1.0), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2)
+Filename: ./pool/main/c/cutefish-debinstaller/cutefish-debinstaller_0.8_amd64.deb
+Size: 24332
+MD5sum: c541fa9dcd14c93a48cf994a9dc5ba0c
+SHA1: 77c4b6e98f93847edf0e7df2e8dc7041b6dbd737
+SHA256: bbeb46c2fdc87d30dc5a02d82cc8a53f39b85d0678e69b8cd08984bd23000550
+Section: devel
+Priority: optional
+Homepage: https://cutefishos.com/
+Description: CutefishOS Deb Installer
+
+Package: cutefish-debinstaller-dbgsym
+Source: cutefish-debinstaller
+Version: 0.7-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: CutefishOS <support@cutefishos.com>
+Installed-Size: 475
+Depends: cutefish-debinstaller (= 0.7-1)
+Filename: ./pool/main/c/cutefish-debinstaller/cutefish-debinstaller-dbgsym_0.7-1_amd64.deb
+Size: 457508
+MD5sum: 4fa960be68e1ddf68af34788826545f7
+SHA1: 0c7c1eb11edbb5c87683ca200d185a97d2af8403
+SHA256: d73a5b70104371f768aa665abc17d45c8542a8a5f7c0b360fa8319f2a260ac6a
+Section: debug
+Priority: optional
+Description: debug symbols for cutefish-debinstaller
+Build-Ids: 5fff2d6229bb26bd141602bd200b7b369e3af9b2
+
+Package: cutefish-debinstaller-dbgsym
+Source: cutefish-debinstaller
+Version: 0.8
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: CutefishOS <support@cutefishos.com>
+Installed-Size: 475
+Depends: cutefish-debinstaller (= 0.8)
+Filename: ./pool/main/c/cutefish-debinstaller/cutefish-debinstaller-dbgsym_0.8_amd64.deb
+Size: 457508
+MD5sum: a476753e9d3076a5f3437c03336966d5
+SHA1: 5959819d825e4b566b9b13e6954f36a59f30137c
+SHA256: f3f62b382d6f9b88125d3e7422b5431bea75561095ce9e2ba554b964d85b50fc
+Section: debug
+Priority: optional
+Description: debug symbols for cutefish-debinstaller
+Build-Ids: 5fff2d6229bb26bd141602bd200b7b369e3af9b2
+
+Package: cutefish-dock
+Version: 0.8
+Architecture: amd64
+Maintainer: CutefishOS <cutefishos@foxmail.com>
+Installed-Size: 274
+Depends: qml-module-qtquick-controls2, qml-module-qtquick2, qml-module-qtquick-layouts, qml-module-qt-labs-platform, qml-module-qt-labs-settings, qml-module-qtqml, qml-module-qtquick-window2, qml-module-qtquick-shapes, qml-module-qtgraphicaleffects, libc6 (>= 2.14), libgcc-s1 (>= 3.0), libkf5windowsystem5 (>= 5.35.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.15.1) | libqt5quick5-gles (>= 5.15.1), libqt5widgets5 (>= 5.0.2), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 4.1.1)
+Filename: ./pool/main/c/cutefish-dock/cutefish-dock_0.8_amd64.deb
+Size: 68900
+MD5sum: f244be2649caf3ef88add8216e92117c
+SHA1: cd0737d6c7aa87e28b2f123945ebed9eda1845a9
+SHA256: 29cbb8c0c82851a776f09e8ed17e3380271a1188d4170d6a4451bd033935784d
+Section: devel
+Priority: optional
+Homepage: https://cutefishos.com
+Description: CutefishOS Dock
+
+Package: cutefish-dock-dbgsym
+Source: cutefish-dock
+Version: 0.8
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: CutefishOS <cutefishos@foxmail.com>
+Installed-Size: 2240
+Depends: cutefish-dock (= 0.8)
+Filename: ./pool/main/c/cutefish-dock/cutefish-dock-dbgsym_0.8_amd64.deb
+Size: 2230988
+MD5sum: da838e664348c5fa72ced73bc9ab5e5c
+SHA1: 585d54b52c1d3f0ce31f589116b88239b0a77f34
+SHA256: c96480ac6f23af9d41bdf977684a997d812a1990927b63c43aab9f09ccfd68f8
+Section: debug
+Priority: optional
+Description: debug symbols for cutefish-dock
+Build-Ids: cad209f22795a7cf93aea019262b683b7916805d
+
+Package: cutefish-filemanager
+Version: 0.8
+Architecture: amd64
+Maintainer: CutefishOS <support@cutefishos.com>
+Installed-Size: 949
+Depends: qml-module-qtquick-controls2, qml-module-qtquick2, qml-module-qtquick-layouts, qml-module-qt-labs-platform, qml-module-qt-labs-settings, qml-module-qtqml, qml-module-qtquick-window2, qml-module-qtquick-shapes, qml-module-qtquick-dialogs, qml-module-qtgraphicaleffects, kio, libc6 (>= 2.14), libgcc-s1 (>= 3.0), libkf5configcore5 (>= 4.97.0), libkf5coreaddons5 (>= 4.97.0), libkf5kiocore5 (>= 5.69.0), libkf5kiowidgets5 (>= 5.69.0), libkf5solid5 (>= 5.74.0), libkf5windowsystem5 (>= 4.96.0), libkf5xmlgui5 (>= 4.96.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.9.0~beta) | libqt5gui5-gles (>= 5.9.0~beta), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.15.1) | libqt5quick5-gles (>= 5.15.1), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2)
+Filename: ./pool/main/c/cutefish-filemanager/cutefish-filemanager_0.8_amd64.deb
+Size: 229060
+MD5sum: 0cd452516a587c85ac7ad426fcd6b0e7
+SHA1: 1ea2a95682d46ceca5511124d6282a677e3f89fb
+SHA256: 5ed9366f6e47f95a9040b31e6efdeedecc954399651013fa9ea389e36c694ebf
+Section: devel
+Priority: optional
+Homepage: https://cutefishos.com
+Description: CutefishOS File Manager
+
+Package: cutefish-filemanager-dbgsym
+Source: cutefish-filemanager
+Version: 0.8
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: CutefishOS <support@cutefishos.com>
+Installed-Size: 5569
+Depends: cutefish-filemanager (= 0.8)
+Filename: ./pool/main/c/cutefish-filemanager/cutefish-filemanager-dbgsym_0.8_amd64.deb
+Size: 5525828
+MD5sum: 076be81f4f8dfb86334d59ec2289ed1a
+SHA1: 2b356d72999bff85d41503e8a072f91fee414265
+SHA256: d3b974e3d1be9a4908d66299416f09b4beed9e169bf1d7f59a53580769fb214f
+Section: debug
+Priority: optional
+Description: debug symbols for cutefish-filemanager
+Build-Ids: 7a7ffa59122814cbdde14bc8d5b950eff22b4dab
+
+Package: cutefish-gtk-themes
+Version: 0.7
+Architecture: amd64
+Maintainer: CutefishOS <support@cutefishos.com>
+Installed-Size: 2557
+Filename: ./pool/main/c/cutefish-gtk-themes/cutefish-gtk-themes_0.7_amd64.deb
+Size: 93116
+MD5sum: 800b4e9a30a836c39dce05d92a4da887
+SHA1: 50a4c4e3ffc15200ee993645afddbfd510c92121
+SHA256: f3ecb2584d296520622573375a5b3fa9acc93651919b6b4f899831b447cd6605
+Section: gnome
+Priority: optional
+Homepage: https://cutefishos.com
+Description: CutefishOS GTK Themes
+
+Package: cutefish-gtk-themes
+Version: 0.8
+Architecture: amd64
+Maintainer: CutefishOS <support@cutefishos.com>
+Installed-Size: 2557
+Filename: ./pool/main/c/cutefish-gtk-themes/cutefish-gtk-themes_0.8_amd64.deb
+Size: 93084
+MD5sum: 2da9816fe1d4ac43bf3914406578ecec
+SHA1: 695725b22b0e832738f9a64163b47b18fcc7bd69
+SHA256: 8ed22afb2be718a06496004e79397f3118d4db84c70897b5a2c1c7275d533a40
+Section: gnome
+Priority: optional
+Homepage: https://cutefishos.com
+Description: CutefishOS GTK Themes
+
+Package: cutefish-icons
+Version: 0.8
+Architecture: all
+Maintainer: CutefishOS <support@cutefishos.com>
+Installed-Size: 42027
+Filename: ./pool/main/c/cutefish-icons/cutefish-icons_0.8_all.deb
+Size: 2936412
+MD5sum: d1e30da3eeaf9e7b4468acef2e4d9b12
+SHA1: 23a046099ca8707a0541d25b6a1b727b7552947e
+SHA256: fd2b612832e8711ff2ef8c85c85521ab2298811f6cd96d422e1d8c71f9470f74
+Section: x11
+Priority: optional
+Homepage: https://cutefishos.com
+Description: CutefishOS Icons
+
+Package: cutefish-kwin-plugins
+Version: 0.8
+Architecture: amd64
+Maintainer: CutefishOS <cutefishos@foxmail.com>
+Installed-Size: 204
+Depends: qml-module-qtquick-controls2, qml-module-qtquick2, libc6 (>= 2.29), libgcc-s1 (>= 3.0), libkdecorations2-5v5 (>= 5.1.50+git20141206.0010+15.04), libkf5coreaddons5 (>= 4.99.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5)
+Filename: ./pool/main/c/cutefish-kwin-plugins/cutefish-kwin-plugins_0.8_amd64.deb
+Size: 40656
+MD5sum: 37b9adde0b9a1bfc8f4cbe48ec646ba2
+SHA1: 7882bff2d49cdb5c41f74bf098ef6ea6eb58beea
+SHA256: 732f37199cbab0d09582fc54499db8ab5c87519b6ff1db60ce52f1a79dd622b7
+Section: devel
+Priority: optional
+Homepage: https://cutefishos.com
+Description: CutefishOS KWin Plugins
+
+Package: cutefish-kwin-plugins-dbgsym
+Source: cutefish-kwin-plugins
+Version: 0.8
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: CutefishOS <cutefishos@foxmail.com>
+Installed-Size: 1296
+Depends: cutefish-kwin-plugins (= 0.8)
+Filename: ./pool/main/c/cutefish-kwin-plugins/cutefish-kwin-plugins-dbgsym_0.8_amd64.deb
+Size: 1272752
+MD5sum: 8e776d9f9ff2aea99bc7dd18f8926e56
+SHA1: d8919a9bc8dfb1047510937d0f43fe0743ddc63d
+SHA256: 370b5e3c33b4fff2df0a2eee11fb10e1b1a1f82dd2cbffb747eaaae1688ae144
+Section: debug
+Priority: optional
+Description: debug symbols for cutefish-kwin-plugins
+Build-Ids: 0cbb3d5404a7ed354a24dcf56a7327f57a2a8b5c 37ddb133d1d9026f12b182422a3b6d2773c46114
+
+Package: cutefish-launcher
+Version: 0.8
+Architecture: amd64
+Maintainer: CutefishOS <support@cutefishos.com>
+Installed-Size: 244
+Depends: qml-module-qtquick-controls2, qml-module-qtquick2, qml-module-qtquick-layouts, qml-module-qt-labs-platform, qml-module-qt-labs-settings, qml-module-qtqml, qml-module-qtquick-window2, qml-module-qtquick-shapes, libc6 (>= 2.14), libgcc-s1 (>= 3.0), libkf5windowsystem5 (>= 4.96.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.15.1) | libqt5quick5-gles (>= 5.15.1), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 4.1.1)
+Filename: ./pool/main/c/cutefish-launcher/cutefish-launcher_0.8_amd64.deb
+Size: 60736
+MD5sum: 559a35511a344675e7d6a9a8a9f6c1ff
+SHA1: cca263c514a08046570a8fb45ceede72f64a61f1
+SHA256: 8fb26f697fc250bd1a6cf0cc543bb18c711f2c0bcd856ec7cb1bedc11b8e26f5
+Section: devel
+Priority: optional
+Homepage: https://cutefishos.com
+Description: CutefishOS Launcher
+
+Package: cutefish-launcher-dbgsym
+Source: cutefish-launcher
+Version: 0.8
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: CutefishOS <support@cutefishos.com>
+Installed-Size: 1903
+Depends: cutefish-launcher (= 0.8)
+Filename: ./pool/main/c/cutefish-launcher/cutefish-launcher-dbgsym_0.8_amd64.deb
+Size: 1880008
+MD5sum: 4560c7ddcd3c595f30034c20efb16567
+SHA1: 8c65b1132a3f6396a7b8a8deb1d2b294bf819fdc
+SHA256: d2ed3e95388ce92554eb95caa74dfd9eee425983d8990a4a72d2a56741843907
+Section: debug
+Priority: optional
+Description: debug symbols for cutefish-launcher
+Build-Ids: 79e373a3bfabc43088a093fa34c2cc4b16385576
+
+Package: cutefish-qt-plugins
+Version: 0.6
+Architecture: amd64
+Maintainer: CutefishOS <support@cutefishos.com>
+Installed-Size: 494
+Depends: libc6 (>= 2.29), libdbusmenu-qt5-2 (>= 0.3.2), libgcc-s1 (>= 3.0), libkf5windowsystem5 (>= 5.69.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5quickcontrols2-5 (>= 5.7.1), libqt5widgets5 (>= 5.0.2), libqt5x11extras5 (>= 5.6.0), libqt5xdgiconloader3 (>= 2.0.0), libstdc++6 (>= 5), qtbase-abi-5-15-2
+Filename: ./pool/main/c/cutefish-qt-plugins/cutefish-qt-plugins_0.6_amd64.deb
+Size: 144404
+MD5sum: 59a7f763139c52771c8e91f149045636
+SHA1: 4c7b07aeeb0775bdfbc5eca2db979f7fd3ccc2f5
+SHA256: 55d3810ba92fbf8828d6ad8b893b5c01d15a3b4c549ce6d004612bc986e2677b
+Section: devel
+Priority: optional
+Homepage: https://cutefishos.com
+Description: CutefishOS Qt Plugins
+
+Package: cutefish-qt-plugins-dbgsym
+Source: cutefish-qt-plugins
+Version: 0.6
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: CutefishOS <support@cutefishos.com>
+Installed-Size: 3793
+Depends: cutefish-qt-plugins (= 0.6)
+Filename: ./pool/main/c/cutefish-qt-plugins/cutefish-qt-plugins-dbgsym_0.6_amd64.deb
+Size: 3743220
+MD5sum: 52ad83a0888a6b42d9f828e22a511843
+SHA1: ecaea7236d00e46fbd3b21f72784f7923d0ac7a9
+SHA256: 42e4ddbb94e36e5c60f9237462622878474d316bf3909fbac5ee471ffe356cbe
+Section: debug
+Priority: optional
+Description: debug symbols for cutefish-qt-plugins
+Build-Ids: 9430fa5f25286413d0ea73035513f8827d54b68f bc8762881f825e2c462a0a00dd0810267dfa0030
+
+Package: cutefish-screenlocker
+Version: 0.6-1
+Architecture: amd64
+Maintainer: CutefishOS <support@cutefishos.com>
+Installed-Size: 157
+Depends: qml-module-qtquick-controls2, qml-module-qtquick2, qml-module-qtquick-layouts, qml-module-qt-labs-platform, qml-module-qt-labs-settings, qml-module-qtqml, qml-module-qtquick-window2, qml-module-qtquick-shapes, qml-module-qtquick-dialogs, libc6 (>= 2.28), libgcc-s1 (>= 3.0), libpam0g (>= 0.99.7.1), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.6.0~beta) | libqt5gui5-gles (>= 5.6.0~beta), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.0.2) | libqt5quick5-gles (>= 5.0.2), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5), libx11-6
+Filename: ./pool/main/c/cutefish-screenlocker/cutefish-screenlocker_0.6-1_amd64.deb
+Size: 35700
+MD5sum: 860951921a8bce62aa93b5d41888eb36
+SHA1: 921ac597c3db98b8dcc12afd1a0aa43f5c18f72b
+SHA256: ef1d03b9a105db396b6c78ad6d94f92fac31493cb93fe48b55a11a76821dba02
+Section: devel
+Priority: optional
+Homepage: https://cutefishos.com
+Description: CutefishOS Screen Locker
+
+Package: cutefish-screenlocker
+Version: 0.8
+Architecture: amd64
+Maintainer: CutefishOS <support@cutefishos.com>
+Installed-Size: 157
+Depends: qml-module-qtquick-controls2, qml-module-qtquick2, qml-module-qtquick-layouts, qml-module-qt-labs-platform, qml-module-qt-labs-settings, qml-module-qtqml, qml-module-qtquick-window2, qml-module-qtquick-shapes, qml-module-qtquick-dialogs, libc6 (>= 2.28), libgcc-s1 (>= 3.0), libpam0g (>= 0.99.7.1), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.6.0~beta) | libqt5gui5-gles (>= 5.6.0~beta), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.0.2) | libqt5quick5-gles (>= 5.0.2), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5), libx11-6
+Filename: ./pool/main/c/cutefish-screenlocker/cutefish-screenlocker_0.8_amd64.deb
+Size: 35692
+MD5sum: c55f82719985045ffa5ad7085bc02d0a
+SHA1: 403036a1fcc786b6741433b5704f9f6c5a4b1f79
+SHA256: b6c57bcbf905e60367ee89584cdec4a6f5f92887c36ecd5822003907ce18850c
+Section: devel
+Priority: optional
+Homepage: https://cutefishos.com
+Description: CutefishOS Screen Locker
+
+Package: cutefish-screenlocker-dbgsym
+Source: cutefish-screenlocker
+Version: 0.6-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: CutefishOS <support@cutefishos.com>
+Installed-Size: 656
+Depends: cutefish-screenlocker (= 0.6-1)
+Filename: ./pool/main/c/cutefish-screenlocker/cutefish-screenlocker-dbgsym_0.6-1_amd64.deb
+Size: 632700
+MD5sum: ae35197aa4472d835fa603fc294e9ba6
+SHA1: bc5c08bf234cac5a82d9060762360cb8cc1a598c
+SHA256: 651582daf0f35ba2e97c8fa964b40fc3507868dba40c7c250ecacbee085f8d31
+Section: debug
+Priority: optional
+Description: debug symbols for cutefish-screenlocker
+Build-Ids: 9e6e1119e1f70afd79c418426efff2bda1e32fa7 d9f3624c16b597f68281c676f1ba2c73affdfc51
+
+Package: cutefish-screenlocker-dbgsym
+Source: cutefish-screenlocker
+Version: 0.8
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: CutefishOS <support@cutefishos.com>
+Installed-Size: 656
+Depends: cutefish-screenlocker (= 0.8)
+Filename: ./pool/main/c/cutefish-screenlocker/cutefish-screenlocker-dbgsym_0.8_amd64.deb
+Size: 632700
+MD5sum: 893184ad74c554d5a03776bf83b6ea10
+SHA1: fb6df6cb79679b609a44e63a56cc0571c70c0606
+SHA256: 0a7cb45c94a66b6e6437c7cc511bc61351262f1cdf3c903a2a0319d7ddf205b1
+Section: debug
+Priority: optional
+Description: debug symbols for cutefish-screenlocker
+Build-Ids: 9e6e1119e1f70afd79c418426efff2bda1e32fa7 d9f3624c16b597f68281c676f1ba2c73affdfc51
+
+Package: cutefish-screenshot
+Version: 0.8
+Architecture: amd64
+Maintainer: CutefishOS <cutefishos@foxmail.com>
+Installed-Size: 112
+Depends: qml-module-qtquick-controls2, qml-module-qtquick2, qml-module-qtquick-layouts, qml-module-qt-labs-platform, qml-module-qt-labs-settings, qml-module-qtqml, qml-module-qtquick-window2, qml-module-qtquick-shapes, qml-module-qtquick-dialogs, libc6 (>= 2.4), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.2.0) | libqt5gui5-gles (>= 5.2.0), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.15.1) | libqt5quick5-gles (>= 5.15.1), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 4.1.1)
+Filename: ./pool/main/c/cutefish-screenshot/cutefish-screenshot_0.8_amd64.deb
+Size: 20660
+MD5sum: d473c6e7233b1d91d0a97b0848cf0633
+SHA1: 0a4a00aa4f64ccab0fb7fbb9548cc7ab705646fa
+SHA256: 3a2ecabd862326c75a57dbecd6d3a125ea36c7e01a0bf818cd1c570858bf73b2
+Section: devel
+Priority: optional
+Homepage: https://cutefishos.com
+Description: CutefishOS Screenshot
+
+Package: cutefish-screenshot-dbgsym
+Source: cutefish-screenshot
+Version: 0.8
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: CutefishOS <cutefishos@foxmail.com>
+Installed-Size: 452
+Depends: cutefish-screenshot (= 0.8)
+Filename: ./pool/main/c/cutefish-screenshot/cutefish-screenshot-dbgsym_0.8_amd64.deb
+Size: 438676
+MD5sum: daf7c7abedb2b259e36776b074810b82
+SHA1: bea9aafbd7e44689da523d0d8217993dd060ba94
+SHA256: 8eff330a83847d4171227b157a5883f2cd8a8a549491dbd30bf1a5b69dfedaaa
+Section: debug
+Priority: optional
+Description: debug symbols for cutefish-screenshot
+Build-Ids: e30fc30bd13d3c032f939dee175f48eb2c98fbc1
+
+Package: cutefish-sddm-theme
+Version: 0.5-1
+Architecture: amd64
+Maintainer: CutefishOS <cutefishos@foxmail.com>
+Installed-Size: 44
+Depends: qml-module-qtquick-controls2, qml-module-qtquick2, qml-module-qtquick-layouts, qml-module-qt-labs-platform, qml-module-qt-labs-settings, qml-module-qtqml, qml-module-qtquick-window2, qml-module-qtquick-shapes, qml-module-qtquick-dialogs, sddm
+Filename: ./pool/main/c/cutefish-sddm-theme/cutefish-sddm-theme_0.5-1_amd64.deb
+Size: 6780
+MD5sum: b69a79447d0a94da6b9ffb806227f45a
+SHA1: 77fd0abcfedcdceb6675c83959a63930d1e7729b
+SHA256: 66f27b78dc7a6fa31c4bbf31396309af0757a5e12ac4b0254904aabeb5582bd3
+Section: devel
+Priority: optional
+Homepage: https://github.com/cutefishos/calculator
+Description: CutefishOS Calculator
+
+Package: cutefish-settings
+Version: 0.8
+Architecture: amd64
+Maintainer: CutefishOS <support@cutefishos.com>
+Installed-Size: 1454
+Depends: qml-module-qtquick-controls2, qml-module-qtquick2, qml-module-qtquick-layouts, qml-module-qt-labs-platform, qml-module-qt-labs-settings, qml-module-qtqml, qml-module-qtquick-window2, qml-module-qtquick-shapes, qml-module-qtquick-dialogs, qml-module-qtquick-particles2, kscreen, libc6 (>= 2.29), libcrypt1 (>= 1:4.1.0), libfontconfig1 (>= 2.12.6), libgcc-s1 (>= 3.0), libicu67 (>= 67.1-1~), libkf5configcore5 (>= 4.97.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5qml5 (>= 5.1.0), libqt5widgets5 (>= 5.0.2), libqt5x11extras5 (>= 5.6.0), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2), libx11-6, libxcursor1 (>> 1.1.2), libxfixes3
+Filename: ./pool/main/c/cutefish-settings/cutefish-settings_0.8_amd64.deb
+Size: 307300
+MD5sum: 3290c4a8a661b9c8f1effeaea3f7f483
+SHA1: ca254eec0e77444ed23df161e8edf5296825ca25
+SHA256: 4637403d72b5426539caf4e8167b653058a8b0fcc66293ee2d3bc5cb697901cd
+Section: devel
+Priority: optional
+Homepage: https://cutefishos.com
+Description: CutefishOS Settings
+
+Package: cutefish-settings-dbgsym
+Source: cutefish-settings
+Version: 0.8
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: CutefishOS <support@cutefishos.com>
+Installed-Size: 4401
+Depends: cutefish-settings (= 0.8)
+Filename: ./pool/main/c/cutefish-settings/cutefish-settings-dbgsym_0.8_amd64.deb
+Size: 4366556
+MD5sum: 5b8d7d812d69d05ccf1ddcd20de7c2c2
+SHA1: dda35551520fbc4bfd1911db7204e36ee8af0301
+SHA256: ddefede7b4059565ed6ba920d7048b214bdbf0146409844a0065b9053b9c1199
+Section: debug
+Priority: optional
+Description: debug symbols for cutefish-settings
+Build-Ids: 7541f48bd6e5886db7e462fbf597d200d3a7dbd3
+
+Package: cutefish-statusbar
+Version: 0.8-1
+Architecture: amd64
+Maintainer: CutefishOS <support@cutefishos.com>
+Installed-Size: 717
+Depends: qml-module-qtquick-controls2, qml-module-qtquick2, qml-module-qtquick-layouts, qml-module-qt-labs-platform, qml-module-qt-labs-settings, qml-module-qtqml, qml-module-qtquick-window2, qml-module-qtquick-shapes, libc6 (>= 2.14), libgcc-s1 (>= 3.0), libkf5windowsystem5 (>= 5.35.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.15.1) | libqt5quick5-gles (>= 5.15.1), libqt5widgets5 (>= 5.0.2), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 4.1.1), libxcb1
+Filename: ./pool/main/c/cutefish-statusbar/cutefish-statusbar_0.8-1_amd64.deb
+Size: 162700
+MD5sum: e7d677ce2b3eb08f79f71bc43849289a
+SHA1: 858cceb3d7fb8de8cb3bf24813a60ea5448ae45c
+SHA256: 9729f957dbee3c77310a12dd1b8944df282e815213769eeae1071096a2f35d8a
+Section: devel
+Priority: optional
+Homepage: https://cutefishos.com
+Description: CutefishOS Statusbar
+
+Package: cutefish-statusbar-dbgsym
+Source: cutefish-statusbar
+Version: 0.8-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: CutefishOS <support@cutefishos.com>
+Installed-Size: 5927
+Depends: cutefish-statusbar (= 0.8-1)
+Filename: ./pool/main/c/cutefish-statusbar/cutefish-statusbar-dbgsym_0.8-1_amd64.deb
+Size: 5906532
+MD5sum: bd689d3443b0d6660352f187a8fcc22f
+SHA1: b1088a65886515f4bf849008a65dfa88ba79032d
+SHA256: 508e8b76a65e2b1b78148c0571280a7922c93578a01eb61b1d825d68f3d33138
+Section: debug
+Priority: optional
+Description: debug symbols for cutefish-statusbar
+Build-Ids: f21a4f51df8ea819a89a9c29e12b493fbdedbabc
+
+Package: cutefish-terminal
+Version: 0.7
+Architecture: amd64
+Maintainer: CutefishOS <support@cutefishos.com>
+Installed-Size: 914
+Depends: qml-module-qtquick-controls2, qml-module-qtquick2, qml-module-qtquick-layouts, qml-module-qt-labs-platform, qml-module-qt-labs-settings, qml-module-qtqml, qml-module-qtquick-window2, qml-module-qtquick-shapes, qml-module-qtquick-dialogs, libc6 (>= 2.15), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.6.1) | libqt5quick5-gles (>= 5.6.1), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2)
+Filename: ./pool/main/c/cutefish-terminal/cutefish-terminal_0.7_amd64.deb
+Size: 234104
+MD5sum: 106a6093c486fe538bbffe65eed5d124
+SHA1: 67e2a94e75c82462865b7fa684c33831fbdb4d5b
+SHA256: a05fab07a46a0dde5cc6090d19aa2cd6b426b909a9989f7e4223a47cae0c483a
+Section: devel
+Priority: optional
+Homepage: https://cutefishos.com
+Description: CutefishOS Terminal
+
+Package: cutefish-terminal
+Version: 0.8
+Architecture: amd64
+Maintainer: CutefishOS <support@cutefishos.com>
+Installed-Size: 914
+Depends: qml-module-qtquick-controls2, qml-module-qtquick2, qml-module-qtquick-layouts, qml-module-qt-labs-platform, qml-module-qt-labs-settings, qml-module-qtqml, qml-module-qtquick-window2, qml-module-qtquick-shapes, qml-module-qtquick-dialogs, libc6 (>= 2.15), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.6.1) | libqt5quick5-gles (>= 5.6.1), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2)
+Filename: ./pool/main/c/cutefish-terminal/cutefish-terminal_0.8_amd64.deb
+Size: 234104
+MD5sum: bb998c09dbd0c174c98970ff056207a5
+SHA1: ae30d6b3f6c8809db27c27058de30f573926f430
+SHA256: c0e7ea7e2e95cbbe49cb976e3c7ef8c542c690b1e30b48f917b5943d242f7d45
+Section: devel
+Priority: optional
+Homepage: https://cutefishos.com
+Description: CutefishOS Terminal
+
+Package: cutefish-terminal-dbgsym
+Source: cutefish-terminal
+Version: 0.7
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: CutefishOS <support@cutefishos.com>
+Installed-Size: 4396
+Depends: cutefish-terminal (= 0.7)
+Filename: ./pool/main/c/cutefish-terminal/cutefish-terminal-dbgsym_0.7_amd64.deb
+Size: 4324900
+MD5sum: 99ee79b877a0598b1775f839b5a4d36e
+SHA1: a9b4f3139e3c65703bd2efab34c3078febfefa8a
+SHA256: a61355ea75d381856377295f41340551a018652419c44f2578e2d95ac30d34b6
+Section: debug
+Priority: optional
+Description: debug symbols for cutefish-terminal
+Build-Ids: 5ce1294d0bfd4d143cede2b4dcbe001c29027504 9f0fc304c7d3879d69143ee9e9722cf1925a43d1
+
+Package: cutefish-terminal-dbgsym
+Source: cutefish-terminal
+Version: 0.8
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: CutefishOS <support@cutefishos.com>
+Installed-Size: 4396
+Depends: cutefish-terminal (= 0.8)
+Filename: ./pool/main/c/cutefish-terminal/cutefish-terminal-dbgsym_0.8_amd64.deb
+Size: 4324900
+MD5sum: bd3cf4aae6c23a59c0fbe6880dca7d59
+SHA1: b02cf39ddc5fb3c7d871311833b5602e27879b0c
+SHA256: 227d76f126ca4ae3eecec5e1cfdc527e29b47b545f1347e20e1a89a1ddba12dc
+Section: debug
+Priority: optional
+Description: debug symbols for cutefish-terminal
+Build-Ids: 5ce1294d0bfd4d143cede2b4dcbe001c29027504 9f0fc304c7d3879d69143ee9e9722cf1925a43d1
+
+Package: cutefish-texteditor
+Version: 0.8
+Architecture: amd64
+Maintainer: CutefishOS <cutefishos@foxmail.com>
+Installed-Size: 9
+Filename: ./pool/main/c/cutefish-texteditor/cutefish-texteditor_0.8_amd64.deb
+Size: 2012
+MD5sum: 5b65b4d5e4e65a64ad0af93166467dc2
+SHA1: dde5cf0adece565d1102668e989a2b786ba0a2cd
+SHA256: e1136fb62c8a3bd95e2fbb88d09510911bdf4dfaef7106530a4f145f23085200
+Section: devel
+Priority: optional
+Homepage: https://github.com/cutefishos/texteditor
+Description: CutefishOS Texteditor
+
+Package: cutefish-updator
+Version: 0.8-1
+Architecture: amd64
+Maintainer: CutefishOS <cutefishos@foxmail.com>
+Installed-Size: 346
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libqapt3 (>= 3.0.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5qml5 (>= 5.1.0), libstdc++6 (>= 4.1.1)
+Filename: ./pool/main/c/cutefish-updator/cutefish-updator_0.8-1_amd64.deb
+Size: 284936
+MD5sum: 03c725f92dfd9ac24e9a4d32ccf31b8e
+SHA1: c356a4c7c89015125d363ed364494a5bf4f5a4be
+SHA256: 149dececa0da81f65351c8c5965c821bbc938e3219a90b81824002349e3e5feb
+Section: devel
+Priority: optional
+Homepage: https://cutefishos.com
+Description: CutefishOS Updator.
+
+Package: cutefish-updator-dbgsym
+Source: cutefish-updator
+Version: 0.8-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: CutefishOS <cutefishos@foxmail.com>
+Installed-Size: 580
+Depends: cutefish-updator (= 0.8-1)
+Filename: ./pool/main/c/cutefish-updator/cutefish-updator-dbgsym_0.8-1_amd64.deb
+Size: 562948
+MD5sum: 6fff5da150ba05f9b2f47e2e905f1145
+SHA1: 9393eefc2cbffbf1b2ab058876a746c30da9b807
+SHA256: b21d5c87df1e166c2b5056091324c349235c5517b45d92c509084fb5c8bc2e22
+Section: debug
+Priority: optional
+Description: debug symbols for cutefish-updator
+Build-Ids: aa90eea40ea8f39089263251a2fe8da9ed23e976
+
+Package: cutefish-videoplayer
+Version: 0.5-3
+Architecture: amd64
+Maintainer: CutefishOS <support@cutefishos.com>
+Installed-Size: 266
+Depends: qml-module-qtquick-controls2, qml-module-qtquick2, qml-module-qtquick-layouts, qml-module-qt-labs-platform, qml-module-qt-labs-settings, qml-module-qtqml, qml-module-qtquick-window2, qml-module-qtquick-shapes, qml-module-qtquick-dialogs, qml-module-qtquick-particles2, libc6 (>= 2.14), libgcc-s1 (>= 3.0), libmpv1 (>= 0.29), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.4.0) | libqt5quick5-gles (>= 5.4.0), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5), qtdeclarative-abi-5-15-2
+Filename: ./pool/main/c/cutefish-videoplayer/cutefish-videoplayer_0.5-3_amd64.deb
+Size: 78536
+MD5sum: 9fedcdfbbfdef739fc5da47df040700c
+SHA1: b920f3ef509fd5abaee2a65ab7b0b4571f4cd2eb
+SHA256: 27a62a1c65ee8938ea9546a3edd641feaeb09e14295d2a10d03e31a8fae3f2f7
+Section: video
+Priority: optional
+Homepage: https://cutefishos.com
+Description: An open source video player built with Qt/QML and libmpv
+
+Package: cutefish-videoplayer-dbgsym
+Source: cutefish-videoplayer
+Version: 0.5-3
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: CutefishOS <support@cutefishos.com>
+Installed-Size: 1938
+Depends: cutefish-videoplayer (= 0.5-3)
+Filename: ./pool/main/c/cutefish-videoplayer/cutefish-videoplayer-dbgsym_0.5-3_amd64.deb
+Size: 1906408
+MD5sum: 4953e9d99e4419b6e393c446eae39aa8
+SHA1: 03659a6968895934ed863b5dc1339ad6443ea0e0
+SHA256: 448457dbb77a7005d53f5bc880ebae39e5a1bd07cfae9e79b1d12de560015af0
+Section: debug
+Priority: optional
+Description: debug symbols for cutefish-videoplayer
+Build-Ids: 8a4aca296bd0a7c28b14c732d34dbf0a3dd28fa1
+
+Package: cutefish-wallpapers
+Version: 0.5
+Architecture: amd64
+Maintainer: CutefishOS <support@cutefishos.com>
+Installed-Size: 11448
+Filename: ./pool/main/c/cutefish-wallpapers/cutefish-wallpapers_0.5_amd64.deb
+Size: 11577476
+MD5sum: 3e0e6d8d0c5230b4f8cc860ced6922d5
+SHA1: dd6ac67cadb0503788af965f08fd14d7fc870b08
+SHA256: 56a13a4bf27f263323e0a500771e6c8207e9f9b91443c6af919280e32739c795
+Section: devel
+Priority: optional
+Homepage: https://cutefishos.com
+Description: CutefishOS Wallpapers
+
+Package: cutefish-wallpapers
+Version: 0.8
+Architecture: amd64
+Maintainer: CutefishOS <support@cutefishos.com>
+Installed-Size: 11448
+Filename: ./pool/main/c/cutefish-wallpapers/cutefish-wallpapers_0.8_amd64.deb
+Size: 11577476
+MD5sum: 3f39cc5300f6677975994ca15a16a569
+SHA1: 4ca66cafa6d8eceae8f15a2e006ca295fdf0ee4a
+SHA256: 1ab5c79b2466debc7bb6fb040ee8016f10d49b67aa7ee63133d7f7c4783dd8bf
+Section: devel
+Priority: optional
+Homepage: https://cutefishos.com
+Description: CutefishOS Wallpapers
+
+Package: fishui
+Version: 0.8
+Architecture: amd64
+Maintainer: CutefishOS <support@cutefishos.com>
+Installed-Size: 881
+Depends: qml-module-qtquick-controls2, qml-module-qtquick2, libc6 (>= 2.14), libgcc-s1 (>= 3.0), libkf5windowsystem5 (>= 5.69.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5qml5 (>= 5.4.0), libqt5quick5 (>= 5.15.1) | libqt5quick5-gles (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 4.1.1)
+Filename: ./pool/main/f/fishui/fishui_0.8_amd64.deb
+Size: 108332
+MD5sum: f74a70c64a4f66d0946a9d3d6cf0c725
+SHA1: 22da13eefec3bf10801a7eb4b8121ee10dbe77cd
+SHA256: 50cfbf7a6672e561c1ed85bcc3b4c60098a0eee644173532b2aff98a038ca210
+Section: devel
+Priority: optional
+Homepage: https://cutefishos.com
+Description: CutefishOS UIKit
+
+Package: fishui-dbgsym
+Source: fishui
+Version: 0.8
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: CutefishOS <support@cutefishos.com>
+Installed-Size: 2505
+Depends: fishui (= 0.8)
+Filename: ./pool/main/f/fishui/fishui-dbgsym_0.8_amd64.deb
+Size: 2482792
+MD5sum: 707dc21db358afdce0c4dd575b691312
+SHA1: 585113e66d14d4c7c41c5989126306beb88da05a
+SHA256: db301ec1ee07171a385e644da59b454c9d32dfc41e743842e7f7b669d011efb7
+Section: debug
+Priority: optional
+Description: debug symbols for fishui
+Build-Ids: 3df3b9351ff57f65601f6be6ce15ab5dfc054e50
+
+Package: libcutefish
+Version: 0.7
+Architecture: amd64
+Maintainer: CutefishOS <support@cutefishos.com>
+Installed-Size: 2084
+Depends: libc6 (>= 2.14), libcanberra0 (>= 0.16), libgcc-s1 (>= 3.0), libkf5bluezqt6 (>= 5.77.0), libkf5coreaddons5 (>= 4.97.0), libkf5networkmanagerqt6 (>= 5.69.0), libkf5screen-bin (>= 4:5.17.5~), libkf5screen7 (>= 4:5.18.3), libpulse-mainloop-glib0 (>= 0.99.1), libpulse0 (>= 0.99.1), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.7.0) | libqt5quick5-gles (>= 5.7.0), libqt5sensors5 (>= 5.6.0), libqt5widgets5 (>= 5.1.0), libstdc++6 (>= 5)
+Filename: ./pool/main/l/libcutefish/libcutefish_0.7_amd64.deb
+Size: 462064
+MD5sum: dbf5f79a2a8915f6e25c23ace0a786c6
+SHA1: 0c1f2b58f0a1f254388984f0b6628805887eca08
+SHA256: 42ead8a9d6caf412afe6bfba1b750224b2e1cff3fa3b8334344189d7d3441f7d
+Section: devel
+Priority: optional
+Homepage: https://cutefishos.com
+Description: CutefishOS Library
+
+Package: libcutefish
+Version: 0.8
+Architecture: amd64
+Maintainer: CutefishOS <support@cutefishos.com>
+Installed-Size: 2084
+Depends: libc6 (>= 2.14), libcanberra0 (>= 0.16), libgcc-s1 (>= 3.0), libkf5bluezqt6 (>= 5.77.0), libkf5coreaddons5 (>= 4.97.0), libkf5networkmanagerqt6 (>= 5.69.0), libkf5screen-bin (>= 4:5.17.5~), libkf5screen7 (>= 4:5.18.3), libpulse-mainloop-glib0 (>= 0.99.1), libpulse0 (>= 0.99.1), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.7.0) | libqt5quick5-gles (>= 5.7.0), libqt5sensors5 (>= 5.6.0), libqt5widgets5 (>= 5.1.0), libstdc++6 (>= 5)
+Filename: ./pool/main/l/libcutefish/libcutefish_0.8_amd64.deb
+Size: 462068
+MD5sum: 9ed23966e19d78a8c568b2bb444cffb5
+SHA1: 7d845a74f930a3251fcb0abce653907e4dd85377
+SHA256: 650797bef57d30f9d85a1140a4393e3cc99128cbdd56ebbb96b1633f611d46e1
+Section: devel
+Priority: optional
+Homepage: https://cutefishos.com
+Description: CutefishOS Library
+
+Package: libcutefish-dbgsym
+Source: libcutefish
+Version: 0.7
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: CutefishOS <support@cutefishos.com>
+Installed-Size: 13712
+Depends: libcutefish (= 0.7)
+Filename: ./pool/main/l/libcutefish/libcutefish-dbgsym_0.7_amd64.deb
+Size: 13455280
+MD5sum: 515cff65550295603a9dc36353c4ffd3
+SHA1: 1f7bc5b99962b63cc4ae2d41549f02add4a1227d
+SHA256: 0ca82c0bf48bb4e16b1d215b1d106e3c0b16b2ff73ddc85f98d3c33924ab6cf9
+Section: debug
+Priority: optional
+Description: debug symbols for libcutefish
+Build-Ids: 029bc5170fc3508b99551719b379dfac19d34ab3 37da0655b50a7d62c2313ec7089f942a0d541a0d 892e1f38efcdf51fa5dd96cca183f801b4abbf61 a87871542d3b3c54af0fc2275b824d83afbcf577 d88b60636909182758e42d2be0b7a8501d746411 dcf3864ea0383296ca687307e9ba912edf55918c e0b0b3ca63871a3bd0abd0cecc688f3ad0f5674d
+
+Package: libcutefish-dbgsym
+Source: libcutefish
+Version: 0.8
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: CutefishOS <support@cutefishos.com>
+Installed-Size: 13712
+Depends: libcutefish (= 0.8)
+Filename: ./pool/main/l/libcutefish/libcutefish-dbgsym_0.8_amd64.deb
+Size: 13455276
+MD5sum: 67c699474cb9189abbf8daf7e1f9428e
+SHA1: 76daf7b7b214d71de2ec9ce4726be759db7b6917
+SHA256: 4e70f817a910e3bb951478ce57cb7ef30cf8c922720ac97dad9c87ee3c17f68a
+Section: debug
+Priority: optional
+Description: debug symbols for libcutefish
+Build-Ids: 029bc5170fc3508b99551719b379dfac19d34ab3 37da0655b50a7d62c2313ec7089f942a0d541a0d 892e1f38efcdf51fa5dd96cca183f801b4abbf61 a87871542d3b3c54af0fc2275b824d83afbcf577 d88b60636909182758e42d2be0b7a8501d746411 dcf3864ea0383296ca687307e9ba912edf55918c e0b0b3ca63871a3bd0abd0cecc688f3ad0f5674d
+
+Package: texteditor
+Version: 0.7-1
+Architecture: amd64
+Maintainer: CutefishOS <cutefishos@foxmail.com>
+Installed-Size: 9
+Filename: ./pool/main/t/texteditor/texteditor_0.7-1_amd64.deb
+Size: 2012
+MD5sum: 234b35e8ba098dc457f9a9cba7ca54e7
+SHA1: b3926fb71677500111456c0d86299f6a4f843704
+SHA256: 466d433bad0cc799be60e039ff4a6c241a564bc8fbd60cff214fe94552cc85aa
+Section: devel
+Priority: optional
+Homepage: https://github.com/cutefishos/texteditor
+Description: CutefishOS Texteditor
+

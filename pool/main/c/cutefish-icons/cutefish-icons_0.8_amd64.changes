@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Sat, 29 Jan 2022 03:16:02 +0800
+Source: cutefish-icons
+Binary: cutefish-icons
+Architecture: all
+Version: 0.8
+Distribution: unstable
+Urgency: medium
+Maintainer: CutefishOS <support@cutefishos.com>
+Changed-By: CutefishOS <support@cutefishos.com>
+Description:
+ cutefish-icons - CutefishOS Icons
+Changes:
+ cutefish-icons (0.8) unstable; urgency=medium
+ .
+   * Init
+Checksums-Sha1:
+ 23a046099ca8707a0541d25b6a1b727b7552947e 2936412 cutefish-icons_0.8_all.deb
+ b36e64f2041ce281a6dd857936a1adb306c1dcc5 5835 cutefish-icons_0.8_amd64.buildinfo
+Checksums-Sha256:
+ fd2b612832e8711ff2ef8c85c85521ab2298811f6cd96d422e1d8c71f9470f74 2936412 cutefish-icons_0.8_all.deb
+ 26a341cacb842a71ab5a386447a9986949585db590bc60d2c30f296934a80c05 5835 cutefish-icons_0.8_amd64.buildinfo
+Files:
+ d1e30da3eeaf9e7b4468acef2e4d9b12 2936412 x11 optional cutefish-icons_0.8_all.deb
+ 776f14b1920958e004d103713a092c8a 5835 x11 optional cutefish-icons_0.8_amd64.buildinfo

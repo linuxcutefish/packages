@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Sat, 29 Jan 2022 03:24:55 +0800
+Source: cutefish-settings
+Binary: cutefish-settings cutefish-settings-dbgsym
+Architecture: amd64
+Version: 0.8
+Distribution: UNRELEASED
+Urgency: high
+Maintainer: CutefishOS <support@cutefishos.com>
+Changed-By: CutefishOS <support@cutefishos.com>
+Description:
+ cutefish-settings - CutefishOS Settings
+Changes:
+ cutefish-settings (0.8) UNRELEASED; urgency=high
+ .
+   * Update <support@cutefishos.com>
+Checksums-Sha1:
+ dda35551520fbc4bfd1911db7204e36ee8af0301 4366556 cutefish-settings-dbgsym_0.8_amd64.deb
+ 4dd73d49b1c853d680da6f6d1189980b8c00fe09 13116 cutefish-settings_0.8_amd64.buildinfo
+ ca254eec0e77444ed23df161e8edf5296825ca25 307300 cutefish-settings_0.8_amd64.deb
+Checksums-Sha256:
+ ddefede7b4059565ed6ba920d7048b214bdbf0146409844a0065b9053b9c1199 4366556 cutefish-settings-dbgsym_0.8_amd64.deb
+ cd4b64f12f476ca708075ec44909b1b0a3b7d28b471f46b0b231fb6a0b45a1f3 13116 cutefish-settings_0.8_amd64.buildinfo
+ 4637403d72b5426539caf4e8167b653058a8b0fcc66293ee2d3bc5cb697901cd 307300 cutefish-settings_0.8_amd64.deb
+Files:
+ 5b8d7d812d69d05ccf1ddcd20de7c2c2 4366556 debug optional cutefish-settings-dbgsym_0.8_amd64.deb
+ a8ed79f46bb52ae8ededef42ef9f9e62 13116 devel optional cutefish-settings_0.8_amd64.buildinfo
+ 3290c4a8a661b9c8f1effeaea3f7f483 307300 devel optional cutefish-settings_0.8_amd64.deb

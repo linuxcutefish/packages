@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Sun, 21 Nov 2021 13:52:29 +0800
+Source: cutefish-calculator
+Binary: cutefish-calculator cutefish-calculator-dbgsym
+Architecture: amd64
+Version: 0.6-1
+Distribution: UNRELEASED
+Urgency: low
+Maintainer: CutefishOS <cutefishos@foxmail.com>
+Changed-By: CutefishOS Packaging Team <support@cutefishos.com>
+Description:
+ cutefish-calculator - CutefishOS Calculator
+Changes:
+ cutefish-calculator (0.6-1) UNRELEASED; urgency=low
+ .
+   * Initial release (CutefishOS)  <support@cutefishos.com>
+Checksums-Sha1:
+ 744639b5454d78085ecee414cf9d6b3b3ca898ce 980824 cutefish-calculator-dbgsym_0.6-1_amd64.deb
+ c4a4b02669874ffbefb4de8de32dbb0f9fe2d2c0 10830 cutefish-calculator_0.6-1_amd64.buildinfo
+ f9c5853365ec4a3f8af91c4201b37aba8d698c94 82852 cutefish-calculator_0.6-1_amd64.deb
+Checksums-Sha256:
+ 703842c5a634d894abceca13b3e0ff4fa9286ce4d2f8070bc364e0d1e9c3429c 980824 cutefish-calculator-dbgsym_0.6-1_amd64.deb
+ 702fc9130d7a58e71e99c3ba52172cdcf8fd9d1b1db936d1106a33cf6540fd2c 10830 cutefish-calculator_0.6-1_amd64.buildinfo
+ 739587e24125852a48b0fddb3ba858691783adcd34188829fe277b1545fe5d3c 82852 cutefish-calculator_0.6-1_amd64.deb
+Files:
+ c4779285c4a58aa73774d238833e9a0b 980824 debug optional cutefish-calculator-dbgsym_0.6-1_amd64.deb
+ 9fc0d62df8697d616984b701a3d913b3 10830 devel optional cutefish-calculator_0.6-1_amd64.buildinfo
+ bc793393d062acbb73d78569f75dfbc7 82852 devel optional cutefish-calculator_0.6-1_amd64.deb

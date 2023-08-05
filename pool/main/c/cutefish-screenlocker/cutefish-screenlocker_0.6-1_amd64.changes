@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Sun, 21 Nov 2021 13:52:29 +0800
+Source: cutefish-screenlocker
+Binary: cutefish-screenlocker cutefish-screenlocker-dbgsym
+Architecture: amd64
+Version: 0.6-1
+Distribution: UNRELEASED
+Urgency: high
+Maintainer: CutefishOS <support@cutefishos.com>
+Changed-By: CutefishOS Packaging Team <support@cutefishos.com>
+Description:
+ cutefish-screenlocker - CutefishOS Screen Locker
+Changes:
+ cutefish-screenlocker (0.6-1) UNRELEASED; urgency=high
+ .
+   * Initial release (CutefishOS)  <support@cutefishos.com>
+Checksums-Sha1:
+ bc5c08bf234cac5a82d9060762360cb8cc1a598c 632700 cutefish-screenlocker-dbgsym_0.6-1_amd64.deb
+ 77c3cc26353da1f8645ad4800777f38f723de4bc 10951 cutefish-screenlocker_0.6-1_amd64.buildinfo
+ 921ac597c3db98b8dcc12afd1a0aa43f5c18f72b 35700 cutefish-screenlocker_0.6-1_amd64.deb
+Checksums-Sha256:
+ 651582daf0f35ba2e97c8fa964b40fc3507868dba40c7c250ecacbee085f8d31 632700 cutefish-screenlocker-dbgsym_0.6-1_amd64.deb
+ f0ce025f1f6f3daf28b374595be4b65ad21e8a04f9d1e150fd74c759eadb7499 10951 cutefish-screenlocker_0.6-1_amd64.buildinfo
+ ef1d03b9a105db396b6c78ad6d94f92fac31493cb93fe48b55a11a76821dba02 35700 cutefish-screenlocker_0.6-1_amd64.deb
+Files:
+ ae35197aa4472d835fa603fc294e9ba6 632700 debug optional cutefish-screenlocker-dbgsym_0.6-1_amd64.deb
+ 17141a0e4925ceb5b8a5c8435475a586 10951 devel optional cutefish-screenlocker_0.6-1_amd64.buildinfo
+ 860951921a8bce62aa93b5d41888eb36 35700 devel optional cutefish-screenlocker_0.6-1_amd64.deb

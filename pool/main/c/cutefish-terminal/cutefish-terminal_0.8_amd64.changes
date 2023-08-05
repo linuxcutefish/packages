@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Mon, 27 Dec 2021 11:12:27 +0800
+Source: cutefish-terminal
+Binary: cutefish-terminal cutefish-terminal-dbgsym
+Architecture: amd64
+Version: 0.8
+Distribution: UNRELEASED
+Urgency: low
+Maintainer: CutefishOS <support@cutefishos.com>
+Changed-By: CutefishOS Packaging Team <support@cutefishos.com>
+Description:
+ cutefish-terminal - CutefishOS Terminal
+Changes:
+ cutefish-terminal (0.8) UNRELEASED; urgency=low
+ .
+   * Initial release (CutefishOS)  <support@cutefishos.com>
+Checksums-Sha1:
+ b02cf39ddc5fb3c7d871311833b5602e27879b0c 4324900 cutefish-terminal-dbgsym_0.8_amd64.deb
+ f4d4ca4a535d0904bb33412750d3a4fa7514295e 10804 cutefish-terminal_0.8_amd64.buildinfo
+ ae30d6b3f6c8809db27c27058de30f573926f430 234104 cutefish-terminal_0.8_amd64.deb
+Checksums-Sha256:
+ 227d76f126ca4ae3eecec5e1cfdc527e29b47b545f1347e20e1a89a1ddba12dc 4324900 cutefish-terminal-dbgsym_0.8_amd64.deb
+ 841db3c25757848bd2c6e735b4b850672b78ea498d274dd17297595ff6944b7c 10804 cutefish-terminal_0.8_amd64.buildinfo
+ c0e7ea7e2e95cbbe49cb976e3c7ef8c542c690b1e30b48f917b5943d242f7d45 234104 cutefish-terminal_0.8_amd64.deb
+Files:
+ bd3cf4aae6c23a59c0fbe6880dca7d59 4324900 debug optional cutefish-terminal-dbgsym_0.8_amd64.deb
+ 123f884c8a47c4b5c94bf94590dee39a 10804 devel optional cutefish-terminal_0.8_amd64.buildinfo
+ bb998c09dbd0c174c98970ff056207a5 234104 devel optional cutefish-terminal_0.8_amd64.deb

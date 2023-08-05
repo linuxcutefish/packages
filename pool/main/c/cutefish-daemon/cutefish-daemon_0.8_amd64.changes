@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Sat, 29 Jan 2022 03:25:58 +0800
+Source: cutefish-daemon
+Binary: cutefish-daemon cutefish-daemon-dbgsym
+Architecture: amd64
+Version: 0.8
+Distribution: UNRELEASED
+Urgency: medium
+Maintainer: CutefishOS <support@cutefishos.com>
+Changed-By: CutefishOS <support@cutefishos.com>
+Description:
+ cutefish-daemon - CutefishOS Daemon.
+Changes:
+ cutefish-daemon (0.8) UNRELEASED; urgency=medium
+ .
+   * Initial release CutefishOS <support@cutefishos.com>
+Checksums-Sha1:
+ 3c25444364407a736e89725cb81f9e7b49f753ac 505500 cutefish-daemon-dbgsym_0.8_amd64.deb
+ 12dc32d0da87df006866649f1993a33f70dd2a7d 10082 cutefish-daemon_0.8_amd64.buildinfo
+ 4c85ddcee6c06bac2b23a3b94908ffa80908e776 11844 cutefish-daemon_0.8_amd64.deb
+Checksums-Sha256:
+ 4ad763b08702d38a910acf90fa0487e011ce0f23894ffe67673556035a6f0e7b 505500 cutefish-daemon-dbgsym_0.8_amd64.deb
+ 0c79404c7fedc419b3bf079254d7ae9dd88349ec4b66681af820c702c3956809 10082 cutefish-daemon_0.8_amd64.buildinfo
+ b9814b891791e1353e5e069bf30d17ea197f581ec34e977c3ac7e18fbe4d8946 11844 cutefish-daemon_0.8_amd64.deb
+Files:
+ cdbdef35bc590f94a3c927a48368bda5 505500 debug optional cutefish-daemon-dbgsym_0.8_amd64.deb
+ 8fad3567311e1c917997333b15d62b01 10082 devel optional cutefish-daemon_0.8_amd64.buildinfo
+ b5c8c8d772a38694f8477e95834025b9 11844 devel optional cutefish-daemon_0.8_amd64.deb

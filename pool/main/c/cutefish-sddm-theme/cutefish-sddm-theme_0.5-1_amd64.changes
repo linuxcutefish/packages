@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Thu, 16 Sep 2021 02:31:42 +0800
+Source: cutefish-sddm-theme
+Binary: cutefish-sddm-theme
+Architecture: amd64
+Version: 0.5-1
+Distribution: UNRELEASED
+Urgency: low
+Maintainer: CutefishOS <cutefishos@foxmail.com>
+Changed-By: CutefishOS Packaging Team <support@cutefishos.com>
+Description:
+ cutefish-sddm-theme - CutefishOS Calculator
+Changes:
+ cutefish-sddm-theme (0.5-1) UNRELEASED; urgency=low
+ .
+   * Initial release (CutefishOS)  <support@cutefishos.com>
+Checksums-Sha1:
+ b9bfd174a8e62211c08c76c5abea664e85d0d21b 10508 cutefish-sddm-theme_0.5-1_amd64.buildinfo
+ 77fd0abcfedcdceb6675c83959a63930d1e7729b 6780 cutefish-sddm-theme_0.5-1_amd64.deb
+Checksums-Sha256:
+ ca008dc90e59bb773c0f701ca19a9ede627b888124bc7ea33901dea80d695844 10508 cutefish-sddm-theme_0.5-1_amd64.buildinfo
+ 66f27b78dc7a6fa31c4bbf31396309af0757a5e12ac4b0254904aabeb5582bd3 6780 cutefish-sddm-theme_0.5-1_amd64.deb
+Files:
+ b8b7d1811fb4f2993ba41e6d264e1d8b 10508 devel optional cutefish-sddm-theme_0.5-1_amd64.buildinfo
+ b69a79447d0a94da6b9ffb806227f45a 6780 devel optional cutefish-sddm-theme_0.5-1_amd64.deb

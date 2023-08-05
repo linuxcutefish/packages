@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Thu, 16 Sep 2021 02:31:42 +0800
+Source: cutefish-wallpapers
+Binary: cutefish-wallpapers
+Architecture: amd64
+Version: 0.5
+Distribution: UNRELEASED
+Urgency: low
+Maintainer: CutefishOS <support@cutefishos.com>
+Changed-By: CutefishOS Packaging Team <support@cutefishos.com>
+Description:
+ cutefish-wallpapers - CutefishOS Wallpapers
+Changes:
+ cutefish-wallpapers (0.5) UNRELEASED; urgency=low
+ .
+   * Initial release (CutefishOS)  <support@cutefishos.com>
+Checksums-Sha1:
+ 792c1464cc4e48b37091bc0568c0a36f099588d7 5570 cutefish-wallpapers_0.5_amd64.buildinfo
+ dd6ac67cadb0503788af965f08fd14d7fc870b08 11577476 cutefish-wallpapers_0.5_amd64.deb
+Checksums-Sha256:
+ 08aa64aed9b1616e3f41cd2155ffd52b4f2468121e345054a9ed6194c73a58a4 5570 cutefish-wallpapers_0.5_amd64.buildinfo
+ 56a13a4bf27f263323e0a500771e6c8207e9f9b91443c6af919280e32739c795 11577476 cutefish-wallpapers_0.5_amd64.deb
+Files:
+ d8f878482a907b4fbb741b6f8e8e3449 5570 devel optional cutefish-wallpapers_0.5_amd64.buildinfo
+ 3e0e6d8d0c5230b4f8cc860ced6922d5 11577476 devel optional cutefish-wallpapers_0.5_amd64.deb

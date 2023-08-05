@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Sat, 29 Jan 2022 03:28:29 +0800
+Source: cutefish-launcher
+Binary: cutefish-launcher cutefish-launcher-dbgsym
+Architecture: amd64
+Version: 0.8
+Distribution: UNRELEASED
+Urgency: high
+Maintainer: CutefishOS <support@cutefishos.com>
+Changed-By: CutefishOS Packaging Team <support@cutefishos.com>
+Description:
+ cutefish-launcher - CutefishOS Launcher
+Changes:
+ cutefish-launcher (0.8) UNRELEASED; urgency=high
+ .
+   * Update
+Checksums-Sha1:
+ 8c65b1132a3f6396a7b8a8deb1d2b294bf819fdc 1880008 cutefish-launcher-dbgsym_0.8_amd64.deb
+ 316f8dfacbce263503206ed04772f7ae48da66e0 10970 cutefish-launcher_0.8_amd64.buildinfo
+ cca263c514a08046570a8fb45ceede72f64a61f1 60736 cutefish-launcher_0.8_amd64.deb
+Checksums-Sha256:
+ d2ed3e95388ce92554eb95caa74dfd9eee425983d8990a4a72d2a56741843907 1880008 cutefish-launcher-dbgsym_0.8_amd64.deb
+ c714eb580b077ea4eb6d3efb889be46f890dc928a83f57cb2c2e2bab2c38cc58 10970 cutefish-launcher_0.8_amd64.buildinfo
+ 8fb26f697fc250bd1a6cf0cc543bb18c711f2c0bcd856ec7cb1bedc11b8e26f5 60736 cutefish-launcher_0.8_amd64.deb
+Files:
+ 4560c7ddcd3c595f30034c20efb16567 1880008 debug optional cutefish-launcher-dbgsym_0.8_amd64.deb
+ caca4b4c5fd316c74c9a0008b60eb8ed 10970 devel optional cutefish-launcher_0.8_amd64.buildinfo
+ 559a35511a344675e7d6a9a8a9f6c1ff 60736 devel optional cutefish-launcher_0.8_amd64.deb

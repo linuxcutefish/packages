@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Sat, 29 Jan 2022 03:49:09 +0800
+Source: cutefish-updator
+Binary: cutefish-updator cutefish-updator-dbgsym
+Architecture: amd64
+Version: 0.8-1
+Distribution: UNRELEASED
+Urgency: medium
+Maintainer: CutefishOS <cutefishos@foxmail.com>
+Changed-By: CutefishOS <support@cutefishos.com>
+Description:
+ cutefish-updator - CutefishOS Updator.
+Changes:
+ cutefish-updator (0.8-1) UNRELEASED; urgency=medium
+ .
+   * Initial release CutefishOS <support@cutefishos.com>
+Checksums-Sha1:
+ 9393eefc2cbffbf1b2ab058876a746c30da9b807 562948 cutefish-updator-dbgsym_0.8-1_amd64.deb
+ 9730f9f04be192ea091b7a2747fbb0c85f5804b1 10966 cutefish-updator_0.8-1_amd64.buildinfo
+ c356a4c7c89015125d363ed364494a5bf4f5a4be 284936 cutefish-updator_0.8-1_amd64.deb
+Checksums-Sha256:
+ b21d5c87df1e166c2b5056091324c349235c5517b45d92c509084fb5c8bc2e22 562948 cutefish-updator-dbgsym_0.8-1_amd64.deb
+ 2abc807c033cb2285449c0a4c97b9dca9edd40f1210bc771b5d9a7d63d5bf356 10966 cutefish-updator_0.8-1_amd64.buildinfo
+ 149dececa0da81f65351c8c5965c821bbc938e3219a90b81824002349e3e5feb 284936 cutefish-updator_0.8-1_amd64.deb
+Files:
+ 6fff5da150ba05f9b2f47e2e905f1145 562948 debug optional cutefish-updator-dbgsym_0.8-1_amd64.deb
+ 393b749e2e203fc3dbdfd8c153a6ebaa 10966 devel optional cutefish-updator_0.8-1_amd64.buildinfo
+ 03c725f92dfd9ac24e9a4d32ccf31b8e 284936 devel optional cutefish-updator_0.8-1_amd64.deb

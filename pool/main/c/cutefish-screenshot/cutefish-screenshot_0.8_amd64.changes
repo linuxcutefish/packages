@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Sat, 29 Jan 2022 03:20:00 +0800
+Source: cutefish-screenshot
+Binary: cutefish-screenshot cutefish-screenshot-dbgsym
+Architecture: amd64
+Version: 0.8
+Distribution: UNRELEASED
+Urgency: low
+Maintainer: CutefishOS <cutefishos@foxmail.com>
+Changed-By: CutefishOS Packaging Team <support@cutefishos.com>
+Description:
+ cutefish-screenshot - CutefishOS Screenshot
+Changes:
+ cutefish-screenshot (0.8) UNRELEASED; urgency=low
+ .
+   * Initial release (CutefishOS)  <support@cutefishos.com>
+Checksums-Sha1:
+ bea9aafbd7e44689da523d0d8217993dd060ba94 438676 cutefish-screenshot-dbgsym_0.8_amd64.deb
+ ce6d282d66829968e9ce5341c7426f7ed239e7fe 10816 cutefish-screenshot_0.8_amd64.buildinfo
+ 0a4a00aa4f64ccab0fb7fbb9548cc7ab705646fa 20660 cutefish-screenshot_0.8_amd64.deb
+Checksums-Sha256:
+ 8eff330a83847d4171227b157a5883f2cd8a8a549491dbd30bf1a5b69dfedaaa 438676 cutefish-screenshot-dbgsym_0.8_amd64.deb
+ d53041aa8a9d7d69f818d324cbdc39da1a83643b4e33077147bb841d8e38c092 10816 cutefish-screenshot_0.8_amd64.buildinfo
+ 3a2ecabd862326c75a57dbecd6d3a125ea36c7e01a0bf818cd1c570858bf73b2 20660 cutefish-screenshot_0.8_amd64.deb
+Files:
+ daf7c7abedb2b259e36776b074810b82 438676 debug optional cutefish-screenshot-dbgsym_0.8_amd64.deb
+ 842f3f0e10c8f2f20b16e5a7476a8d6a 10816 devel optional cutefish-screenshot_0.8_amd64.buildinfo
+ d473c6e7233b1d91d0a97b0848cf0633 20660 devel optional cutefish-screenshot_0.8_amd64.deb

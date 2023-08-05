@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Mon, 27 Dec 2021 11:12:27 +0800
+Source: libcutefish
+Binary: libcutefish libcutefish-dbgsym
+Architecture: amd64
+Version: 0.7
+Distribution: UNRELEASED
+Urgency: high
+Maintainer: CutefishOS <support@cutefishos.com>
+Changed-By: CutefishOS Packaging Team <support@cutefishos.com>
+Description:
+ libcutefish - CutefishOS Library
+Changes:
+ libcutefish (0.7) UNRELEASED; urgency=high
+ .
+   * Initial release (CutefishOS)  <support@cutefishos.com>
+Checksums-Sha1:
+ 1f7bc5b99962b63cc4ae2d41549f02add4a1227d 13455280 libcutefish-dbgsym_0.7_amd64.deb
+ 4adc72e90f7ab031e0e4147ecc75bf066dc20499 16268 libcutefish_0.7_amd64.buildinfo
+ 0c1f2b58f0a1f254388984f0b6628805887eca08 462064 libcutefish_0.7_amd64.deb
+Checksums-Sha256:
+ 0ca82c0bf48bb4e16b1d215b1d106e3c0b16b2ff73ddc85f98d3c33924ab6cf9 13455280 libcutefish-dbgsym_0.7_amd64.deb
+ c7c96c89d63faea53bcee01d2663d0021eecc825ac3bae42aeaf3e2f262c5490 16268 libcutefish_0.7_amd64.buildinfo
+ 42ead8a9d6caf412afe6bfba1b750224b2e1cff3fa3b8334344189d7d3441f7d 462064 libcutefish_0.7_amd64.deb
+Files:
+ 515cff65550295603a9dc36353c4ffd3 13455280 debug optional libcutefish-dbgsym_0.7_amd64.deb
+ dd385668fc8e71be28b2dda8914e39c7 16268 devel optional libcutefish_0.7_amd64.buildinfo
+ dbf5f79a2a8915f6e25c23ace0a786c6 462064 devel optional libcutefish_0.7_amd64.deb

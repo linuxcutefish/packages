@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Sun, 16 Jan 2022 18:12:05 +0800
+Source: cutefish-texteditor
+Binary: cutefish-texteditor
+Architecture: amd64
+Version: 0.8
+Distribution: UNRELEASED
+Urgency: medium
+Maintainer: CutefishOS <cutefishos@foxmail.com>
+Changed-By: CutefishOS Packaging Team <support@cutefishos.com>
+Description:
+ cutefish-texteditor - CutefishOS Texteditor
+Changes:
+ cutefish-texteditor (0.8) UNRELEASED; urgency=medium
+ .
+   * Initial Release.
+Checksums-Sha1:
+ cc62de4578676ea978f577425890d1a3ec548672 9258 cutefish-texteditor_0.8_amd64.buildinfo
+ dde5cf0adece565d1102668e989a2b786ba0a2cd 2012 cutefish-texteditor_0.8_amd64.deb
+Checksums-Sha256:
+ 4644568cfd2c9fe6b0bf7d5f00aeb7d99605781e9d72b41d0c6d044d88e9fc25 9258 cutefish-texteditor_0.8_amd64.buildinfo
+ e1136fb62c8a3bd95e2fbb88d09510911bdf4dfaef7106530a4f145f23085200 2012 cutefish-texteditor_0.8_amd64.deb
+Files:
+ 0f0e15e0c12960ce45a74ceee217d791 9258 devel optional cutefish-texteditor_0.8_amd64.buildinfo
+ 5b65b4d5e4e65a64ad0af93166467dc2 2012 devel optional cutefish-texteditor_0.8_amd64.deb

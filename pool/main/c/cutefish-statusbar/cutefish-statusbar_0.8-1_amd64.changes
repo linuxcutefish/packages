@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Sat, 19 Feb 2022 10:53:42 +0800
+Source: cutefish-statusbar
+Binary: cutefish-statusbar cutefish-statusbar-dbgsym
+Architecture: amd64
+Version: 0.8-1
+Distribution: UNRELEASED
+Urgency: high
+Maintainer: CutefishOS <support@cutefishos.com>
+Changed-By: CutefishOS Packaging Team <support@cutefishos.com>
+Description:
+ cutefish-statusbar - CutefishOS Statusbar
+Changes:
+ cutefish-statusbar (0.8-1) UNRELEASED; urgency=high
+ .
+   * Initial release (CutefishOS)  <support@cutefishos.com>
+Checksums-Sha1:
+ b1088a65886515f4bf849008a65dfa88ba79032d 5906532 cutefish-statusbar-dbgsym_0.8-1_amd64.deb
+ c766c6a2a20e10258c55708458e0dd19c2ccc9f4 11058 cutefish-statusbar_0.8-1_amd64.buildinfo
+ 858cceb3d7fb8de8cb3bf24813a60ea5448ae45c 162700 cutefish-statusbar_0.8-1_amd64.deb
+Checksums-Sha256:
+ 508e8b76a65e2b1b78148c0571280a7922c93578a01eb61b1d825d68f3d33138 5906532 cutefish-statusbar-dbgsym_0.8-1_amd64.deb
+ f18100cdc4cf607a0948db7ca9f96b183ac579719b44ce45de08a4047ebfeca7 11058 cutefish-statusbar_0.8-1_amd64.buildinfo
+ 9729f957dbee3c77310a12dd1b8944df282e815213769eeae1071096a2f35d8a 162700 cutefish-statusbar_0.8-1_amd64.deb
+Files:
+ bd689d3443b0d6660352f187a8fcc22f 5906532 debug optional cutefish-statusbar-dbgsym_0.8-1_amd64.deb
+ 5a1dd327b079fb7535272e11d29d7eaa 11058 devel optional cutefish-statusbar_0.8-1_amd64.buildinfo
+ e7d677ce2b3eb08f79f71bc43849289a 162700 devel optional cutefish-statusbar_0.8-1_amd64.deb

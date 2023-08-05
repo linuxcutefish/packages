@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Mon, 27 Dec 2021 11:12:27 +0800
+Source: cutefish-gtk-themes
+Binary: cutefish-gtk-themes
+Architecture: amd64
+Version: 0.7
+Distribution: UNRELEASED
+Urgency: low
+Maintainer: CutefishOS <support@cutefishos.com>
+Changed-By: CutefishOS <support@cutefishos.com>
+Description:
+ cutefish-gtk-themes - CutefishOS GTK Themes
+Changes:
+ cutefish-gtk-themes (0.7) UNRELEASED; urgency=low
+ .
+   * Initial release
+Checksums-Sha1:
+ bc64f6a774d02aa16378c14c769b8e13871fce6f 3815 cutefish-gtk-themes_0.7_amd64.buildinfo
+ 50a4c4e3ffc15200ee993645afddbfd510c92121 93116 cutefish-gtk-themes_0.7_amd64.deb
+Checksums-Sha256:
+ 7dbb062ce9573575d01089ec4b072c96507d56e7c7c5ef1fac6a0816b8fc9bf6 3815 cutefish-gtk-themes_0.7_amd64.buildinfo
+ f3ecb2584d296520622573375a5b3fa9acc93651919b6b4f899831b447cd6605 93116 cutefish-gtk-themes_0.7_amd64.deb
+Files:
+ 20ffef4deec983fe50395dc881e4f754 3815 gnome optional cutefish-gtk-themes_0.7_amd64.buildinfo
+ 800b4e9a30a836c39dce05d92a4da887 93116 gnome optional cutefish-gtk-themes_0.7_amd64.deb

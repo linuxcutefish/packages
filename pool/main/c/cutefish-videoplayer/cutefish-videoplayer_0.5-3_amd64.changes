@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Tue, 05 Oct 2021 20:16:32 +0800
+Source: cutefish-videoplayer
+Binary: cutefish-videoplayer cutefish-videoplayer-dbgsym
+Architecture: amd64
+Version: 0.5-3
+Distribution: unstable
+Urgency: high
+Maintainer: CutefishOS <support@cutefishos.com>
+Changed-By: CutefishOS <support@cutefishos.com>
+Description:
+ cutefish-videoplayer - An open source video player built with Qt/QML and libmpv
+Changes:
+ cutefish-videoplayer (0.5-3) unstable; urgency=high
+ .
+   * Fix some issues
+Checksums-Sha1:
+ 03659a6968895934ed863b5dc1339ad6443ea0e0 1906408 cutefish-videoplayer-dbgsym_0.5-3_amd64.deb
+ bd89a1d30bc86c37d0d6404c1d0dffd76222e549 15253 cutefish-videoplayer_0.5-3_amd64.buildinfo
+ b920f3ef509fd5abaee2a65ab7b0b4571f4cd2eb 78536 cutefish-videoplayer_0.5-3_amd64.deb
+Checksums-Sha256:
+ 448457dbb77a7005d53f5bc880ebae39e5a1bd07cfae9e79b1d12de560015af0 1906408 cutefish-videoplayer-dbgsym_0.5-3_amd64.deb
+ 37c7d99038e6759ed2ac84fe7712e4e549ad96465455fb29dc50f11956053da6 15253 cutefish-videoplayer_0.5-3_amd64.buildinfo
+ 27a62a1c65ee8938ea9546a3edd641feaeb09e14295d2a10d03e31a8fae3f2f7 78536 cutefish-videoplayer_0.5-3_amd64.deb
+Files:
+ 4953e9d99e4419b6e393c446eae39aa8 1906408 debug optional cutefish-videoplayer-dbgsym_0.5-3_amd64.deb
+ 48260642e44938a0aea3a8510b3d8d24 15253 video optional cutefish-videoplayer_0.5-3_amd64.buildinfo
+ 9fedcdfbbfdef739fc5da47df040700c 78536 video optional cutefish-videoplayer_0.5-3_amd64.deb
