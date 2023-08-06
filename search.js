@@ -5,7 +5,7 @@ window.addEventListener('DOMContentLoaded', () => {
   let filesList = [];
 
   function getFileList() {
-    const fileListUrl = 'https://api.github.com/repos/linuxcutefish/packages/git/trees/master?recursive=1';
+    const fileListUrl = 'https://api.github.com/repos/linuxcutefish/packages/git/trees/main?recursive=1';
 
     fetch(fileListUrl)
       .then(response => response.json())
@@ -43,7 +43,7 @@ window.addEventListener('DOMContentLoaded', () => {
         const icon = document.createElement('i');
         icon.className = 'far fa-file';
         icon.style.marginRight = '5px';
-        link.href = `https://github.com/linuxcutefish/packages/blob/master/${path}`;
+        link.href = `https://github.com/linuxcutefish/packages/blob/main/${path}`;
         link.target = '_blank';
         link.textContent = path;
         link.prepend(icon);
@@ -52,7 +52,7 @@ window.addEventListener('DOMContentLoaded', () => {
         const downloadIcon = document.createElement('i');
         downloadIcon.className = 'fas fa-download';
         downloadIcon.style.marginLeft = '5px';
-        downloadLink.href = `https://raw.githubusercontent.com/linuxcutefish/packages/master/${path}`;
+        downloadLink.href = `https://raw.githubusercontent.com/linuxcutefish/packages/main/${path}`;
         downloadLink.download = path.substring(path.lastIndexOf("/") + 1);
         downloadLink.target = '_blank';
         downloadLink.innerHTML = '&nbsp;Download file';
