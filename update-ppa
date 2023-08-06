@@ -1,10 +1,9 @@
 #!/bin/bash
-#!/bin/bash
 
 set -e
 set -v
 
-export EMAIL=
+export ID=767689EA4221E44E
 
 (
 set -e
@@ -16,8 +15,8 @@ gzip -k -f Packages
 
 # Release, Release.gpg & InRelease
 apt-ftparchive release . > Release
-gpg --default-key "${EMAIL}" -abs -o - Release > Release.gpg
-gpg --default-key "${EMAIL}" --clearsign -o - Release > InRelease
+gpg --default-key "${ID}" -abs -o - Release > Release.gpg
+gpg --default-key "${ID}" --clearsign -o - Release > InRelease
 
 # Commit & push
 git add -A
