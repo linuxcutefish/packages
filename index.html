@@ -9,6 +9,8 @@
     integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css" />
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3075431923852009"
+     crossorigin="anonymous"></script>
   </head>
   <body>
 <header>
@@ -19,6 +21,12 @@
     <ul id="file-list"></ul>
     <hr>
     <p><em>GitHub CutefishOS Repository at https://github.com/linuxcutefish/packages</em></p>
+<br />
+<p><strong>How to add a repository:</strong></p>
+<pre>
+<code>curl -s --compressed "https://linuxcutefish.github.io/packages/cutefishos.gpg" | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/cutefishos.gpg >/dev/null </code> 
+<code>sudo curl -s --compressed -o /etc/apt/sources.list.d/cutefishos.list "https://linuxcutefish.github.io/packages/cutefishos.list" </code> 
+<code>sudo apt update </code></pre>
     <script src="search.js"></script>
     <script src="script.js"></script>
     <script src="download.js"></script>
