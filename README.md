@@ -2,7 +2,7 @@
 
 add key.gpg
 
-    curl -s --compressed "https://linuxcutefish.github.io/packages/KEY.gpg" | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/KEY.gpg >/dev/null
+    curl -s --compressed "https://linuxcutefish.github.io/packages/cutefishos.gpg" | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/KEY.gpg >/dev/null
 
 add list
 

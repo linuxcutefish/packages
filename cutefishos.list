@@ -1,1 +1,1 @@
-deb [signed-by=/etc/apt/trusted.gpg.d/KEY.gpg] https://linuxcutefish.github.io/packages ./
+deb [signed-by=/etc/apt/trusted.gpg.d/cutefishos.gpg] https://linuxcutefish.github.io/packages ./
