@@ -908,7 +908,7 @@ Architecture: amd64
 Maintainer: Mateusz Łukasik <mati75@linuxmint.pl>
 Installed-Size: 117
 Depends: libayatana-appindicator3-1 (>= 0.2.92), libc6 (>= 2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.35.9), libgtk-3-0 (>= 3.21.5), libwnck-3-0 (>= 2.91.6), libxklavier16 (>= 5.0)
-Filename: ./pool/main/g/gxkb_0.9.3-2_amd64.deb
+Filename: ./pool/main/g/gxkb/gxkb_0.9.3-2_amd64.deb
 Size: 69446
 MD5sum: 010408e5a602ec2f8f23de2bebe33718
 SHA1: 171611b94cee0aae226f5c98d040221818447b73
@@ -992,6 +992,58 @@ Section: debug
 Priority: optional
 Description: debug symbols for libcutefish
 Build-Ids: 029bc5170fc3508b99551719b379dfac19d34ab3 37da0655b50a7d62c2313ec7089f942a0d541a0d 892e1f38efcdf51fa5dd96cca183f801b4abbf61 a87871542d3b3c54af0fc2275b824d83afbcf577 d88b60636909182758e42d2be0b7a8501d746411 dcf3864ea0383296ca687307e9ba912edf55918c e0b0b3ca63871a3bd0abd0cecc688f3ad0f5674d
+
+Package: libsnapd-glib1
+Source: snapd-glib
+Version: 1.58-4
+Architecture: amd64
+Maintainer: Ayatana Packagers <pkg-ayatana-devel@alioth-lists.debian.net>
+Installed-Size: 367
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.46), libjson-glib-1.0-0 (>= 1.5.2), libsoup2.4-1 (>= 2.39.2)
+Suggests: snapd
+Filename: ./pool/main/l/libsnapd/libsnapd-glib1_1.58-4_amd64.deb
+Size: 92608
+MD5sum: cbe75c2e5858f09a1b4c9f282e82b65e
+SHA1: 174a33a9c1df287f8e801b3ef431369e94a102ea
+SHA256: 02c7992b98e8a6a2d81afca91d3024a47f0a04893e904e25fb2d4e6f5bddb566
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/snapcore/snapd-glib
+Description: GLib snapd library
+ snapd-glib is a library to allow GLib based applications access to snapd,
+ the daemon that controls Snaps.
+ .
+ Snaps are 'universal' packages that work across many different Linux
+ systems, enabling secure distribution of the latest apps and utilities
+ for cloud, servers, desktops and the internet of things.
+
+Package: libsnapd-qt1
+Source: snapd-glib
+Version: 1.58-4
+Architecture: amd64
+Maintainer: Ayatana Packagers <pkg-ayatana-devel@alioth-lists.debian.net>
+Installed-Size: 624
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.46), libqt5core5a (>= 5.15.1), libsnapd-glib1 (>= 1.58), libstdc++6 (>= 5.2)
+Suggests: snapd
+Filename: ./pool/main/l/libsnapd/libsnapd-qt1_1.58-4_amd64.deb
+Size: 119136
+MD5sum: ce41391168537891c14df6dc46adb1d1
+SHA1: bc3da580058505b09bc312749b80882c2d1865e8
+SHA256: 659cd3e8e410c07df7ae958061d74ca9842d6fb48700511f5f5acf23bea83392
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/snapcore/snapd-glib
+Description: Qt snapd library
+ snapd-glib is a library to allow GLib based applications access to snapd,
+ the daemon that controls Snaps.
+ .
+ Snaps are 'universal' packages that work across many different Linux
+ systems, enabling secure distribution of the latest apps and utilities
+ for cloud, servers, desktops and the internet of things.
+ .
+ snapd-qt is a wrapper library for snapd-glib for Qt applications.
 
 Package: texteditor
 Version: 0.7-1
