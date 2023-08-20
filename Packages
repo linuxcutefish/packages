@@ -66,6 +66,540 @@ Priority: optional
 Description: debug symbols for appmotor
 Build-Ids: b787361d51c07eaf5ca73e9c6c69910bf50c09dc bc11a94f14db8ecaa35f9652de5438d5687dbf5e be7b6404ee423d02475ed609599856805ce31b17 cef9d16b34fc4da06f058d81455a76fcd0260522
 
+Package: coreaction
+Source: coreapps
+Version: 4.2.0
+Architecture: amd64
+Maintainer: Marcus Britanicus <marcusbritanicus@gmail.com>
+Installed-Size: 77
+Depends: libc6 (>= 2.4), libcprime (>= 4.2.0), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5)
+Filename: ./pool/main/c/coreaction/coreaction_4.2.0_amd64.deb
+Size: 19288
+MD5sum: 359631c1442aadee1b047e20d8d6e6b8
+SHA1: 7ed836932ea6cb09179e946b1776a929e2217bc7
+SHA256: e30e6e9b5d2ec0227dbfebe4c42bfe02934c70f4def1ed2ce3185fb7cbe376be
+Section: utils
+Priority: optional
+Homepage: https://cubocore.org
+Description: SideBar to show widgets for CoreApps
+  CoreApps is a light-weight application suite built specifically
+  to be very low on CPU and RAM, while at the same time have an
+  appleaing look. CoreApps are a set of 21 applications built to
+  cater almost all the personal needs of a common user.
+  .
+  This packages contains the coreaction app, which can be used to
+  show useful widgets.
+
+Package: coreaction-plugins
+Source: coreapps
+Version: 4.2.0
+Architecture: amd64
+Maintainer: Marcus Britanicus <marcusbritanicus@gmail.com>
+Installed-Size: 1386
+Depends: libc6 (>= 2.14), libcprime (>= 4.2.0), libcsys (>= 4.2.0), libdbusmenu-qt5-2 (>= 0.3.2), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.10.0) | libqt5gui5-gles (>= 5.10.0), libqt5network5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.3.0), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5), libx11-6, libxcomposite1 (>= 1:0.4.5), libxdamage1 (>= 1:1.1), libxrender1
+Filename: ./pool/main/c/coreaction/coreaction-plugins_4.2.0_amd64.deb
+Size: 260484
+MD5sum: a48792699c4b78efb769288fd855c96c
+SHA1: f004a5cc487162c095143cd1dda6f99f76a8a1cb
+SHA256: 8549f3f282733a3250f201b8ceae4043e1235a34889f38f8403652eec6bfa167
+Section: utils
+Priority: optional
+Homepage: https://cubocore.org
+Description: SideBar to show widgets for CoreApps
+  CoreApps is a light-weight application suite built specifically
+  to be very low on CPU and RAM, while at the same time have an
+  appleaing look. CoreApps are a set of 21 applications built to
+  cater almost all the personal needs of a common user.
+  .
+  This packages contains the plugins for coreaction app, which can be
+  used to show useful widgets.
+
+Package: corearchiver
+Source: coreapps
+Version: 4.2.0
+Architecture: amd64
+Maintainer: Marcus Britanicus <marcusbritanicus@gmail.com>
+Installed-Size: 142
+Depends: libarchiveqt (>= 4.2.0), libc6 (>= 2.14), libcprime (>= 4.2.0), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5)
+Filename: ./pool/main/c/corearchiver/corearchiver_4.2.0_amd64.deb
+Size: 40016
+MD5sum: 688e8b9ca1d0795ab5f6e74eed2e4280
+SHA1: db59b631b68e55ced0bb2549b4f7fef644067e8a
+SHA256: d6e2783ba96c72da6a5730c4e6525a63ba862597ea0aa5ead5a67dd934861ceb
+Section: utils
+Priority: optional
+Homepage: https://cubocore.org
+Description: A simple archiver/de-archiver for CoreApps
+  CoreApps is a light-weight application suite built specifically
+  to be very low on CPU and RAM, while at the same time have an
+  appleaing look. CoreApps are a set of 21 applications built to
+  cater almost all the personal needs of a common user.
+  .
+  This packages contains the corearchiver app, which can be used to
+  compress/decompress files/folders.
+
+Package: corefm
+Source: coreapps
+Version: 4.2.0
+Architecture: amd64
+Maintainer: Marcus Britanicus <marcusbritanicus@gmail.com>
+Installed-Size: 419
+Depends: libc6 (>= 2.14), libcprime (>= 4.2.0), libcsys (>= 4.2.0), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 5.2)
+Filename: ./pool/main/c/corefm/corefm_4.2.0_amd64.deb
+Size: 116436
+MD5sum: a6e9a15cef9a305494491ed8c10e4f25
+SHA1: 0d826b01084ac9828768493c8d9eeeac71576b75
+SHA256: 5df877d108477fb38356b5f9f69d44749e5f72f0ea9535cc66cf0f44bbf83a93
+Section: utils
+Priority: optional
+Homepage: https://cubocore.org
+Description: A simple file manager for CoreApps
+  CoreApps is a light-weight application suite built specifically
+  to be very low on CPU and RAM, while at the same time have an
+  appleaing look. CoreApps are a set of 21 applications built to
+  cater almost all the personal needs of a common user.
+  .
+  This packages contains the corefm app, a file manager built to
+  cater to the need for a beautiful looking, yet light-weight
+  file-manager. With many features like image previews, mime-icon
+  support, split view, auto-mounting of removalbe media, drag-n-drop
+  support, etc, CoreFM is one of the rare file managers which is
+  lighting fast.
+
+Package: coregarage
+Source: coreapps
+Version: 4.2.0
+Architecture: amd64
+Maintainer: Marcus Britanicus <marcusbritanicus@gmail.com>
+Installed-Size: 226
+Depends: libarchiveqt (>= 4.2.0), libc6 (>= 2.14), libcprime (>= 4.2.0), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.2.0~alpha1), libstdc++6 (>= 5)
+Filename: ./pool/main/c/coregarage/coregarage_4.2.0_amd64.deb
+Size: 64812
+MD5sum: 0d7a7e42a410a76453c697731c8cb46f
+SHA1: 2fdaf1904f7ffdacd4ccbcb5592ad06c811ef687
+SHA256: de5eb9d3aa6d727942d4b53cecd4b0d54c9e27b02d4f8f7e0d89f05386089d85
+Section: utils
+Priority: optional
+Homepage: https://cubocore.org
+Description: Settings Manager for CoreApps
+  CoreApps is a light-weight application suite built specifically
+  to be very low on CPU and RAM, while at the same time have an
+  appleaing look. CoreApps are a set of 21 applications built to
+  cater almost all the personal needs of a common user.
+  .
+  This packages contains the coregarage app, which can be used to
+  make some nice tweaks which ensure the smooth working of all the
+  applications on both touch and traditional displays.
+
+Package: corehunt
+Source: coreapps
+Version: 4.2.0
+Architecture: amd64
+Maintainer: Marcus Britanicus <marcusbritanicus@gmail.com>
+Installed-Size: 166
+Depends: libc6 (>= 2.14), libcprime (>= 4.2.0), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.2.0~alpha1), libstdc++6 (>= 5)
+Filename: ./pool/main/c/corehunt/corehunt_4.2.0_amd64.deb
+Size: 46600
+MD5sum: 142265d3f681d3224f9182144c283b15
+SHA1: e202cfed66e837ea9e28725705d019849ddf23a5
+SHA256: ea0be6e27c28f078b833c153a4cc88fed6c8261b566ffe89be27361a6823a468
+Section: utils
+Priority: optional
+Homepage: https://cubocore.org
+Description: File search application for CoreApps
+  CoreApps is a light-weight application suite built specifically
+  to be very low on CPU and RAM, while at the same time have an
+  appleaing look. CoreApps are a set of 21 applications built to
+  cater almost all the personal needs of a common user.
+  .
+  This packages contains the corehunt app, which is a fast file
+  search program built to cater the needs of CoreApps users. With
+  categorized search and search history, CoreHunt is a nice and a
+  useful addition to CoreApps application suite.
+
+Package: coreimage
+Source: coreapps
+Version: 4.2.0
+Architecture: amd64
+Maintainer: Marcus Britanicus <marcusbritanicus@gmail.com>
+Installed-Size: 151
+Depends: libc6 (>= 2.14), libcprime (>= 4.2.0), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.2.0), libstdc++6 (>= 5)
+Filename: ./pool/main/c/coreimage/coreimage_4.2.0_amd64.deb
+Size: 42136
+MD5sum: 0b02c7e4646491d426a0517c240003a0
+SHA1: a0acfc362adbec6c7efac2a5b815236fc08e0c7a
+SHA256: 6bc8fb8b2a989e45ccf37931f160e9581a5e31311d2a47ccc5fc85deafe76431
+Section: utils
+Priority: optional
+Homepage: https://cubocore.org
+Description: Image viewer for CoreApps
+  CoreApps is a light-weight application suite built specifically
+  to be very low on CPU and RAM, while at the same time have an
+  appleaing look. CoreApps are a set of 21 applications built to
+  cater almost all the personal needs of a common user.
+  .
+  This packages contains the coreimage app, which is a fast image
+  viewer, which supports all the image formats supported by Qt.
+
+Package: coreinfo
+Source: coreapps
+Version: 4.2.0
+Architecture: amd64
+Maintainer: Marcus Britanicus <marcusbritanicus@gmail.com>
+Installed-Size: 133
+Depends: libc6 (>= 2.4), libcprime (>= 4.2.0), libgcc-s1 (>= 3.0), libmediainfo0v5 (>= 0.7.56), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2), libzen0v5 (>= 0.4.31-2~)
+Filename: ./pool/main/c/coreinfo/coreinfo_4.2.0_amd64.deb
+Size: 34348
+MD5sum: ab983f3807333dbe6e31511af85780a0
+SHA1: 18ad0e9b566af33479cb336672cf8d203f198d89
+SHA256: ecfe9687b67f4f7ce3cf5fcc40fcdc520c27127a8e536f0c81897dac4a490910
+Section: utils
+Priority: optional
+Homepage: https://cubocore.org
+Description: Media metadata viewer for CoreApps
+  CoreApps is a light-weight application suite built specifically
+  to be very low on CPU and RAM, while at the same time have an
+  appleaing look. CoreApps are a set of 21 applications built to
+  cater almost all the personal needs of a common user.
+  .
+  This packages contains the coreinfo app, which is a media metadata
+  viewer built on top of the powerful mediainfo library, to show all
+  the possible information about a media file that can be shown.
+
+Package: corekeyboard
+Source: coreapps
+Version: 4.2.0
+Architecture: amd64
+Maintainer: Marcus Britanicus <marcusbritanicus@gmail.com>
+Installed-Size: 1115
+Depends: libc6 (>= 2.14), libcprime (>= 4.2.0), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5widgets5 (>= 5.0.2), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5), libxtst6
+Filename: ./pool/main/c/corekeyboard/corekeyboard_4.2.0_amd64.deb
+Size: 404488
+MD5sum: 8062ba5cfabcdf8684e7c6e946f31e6c
+SHA1: 65278e578af1930350f1a0c692d94e0530ce84f3
+SHA256: a49aa49b41baf83b9bc5f49ced88765bd75b24a91dd2920e95538b6b781b74eb
+Section: utils
+Priority: optional
+Homepage: https://cubocore.org
+Description: Virtual keyboard for CoreApps
+  CoreApps is a light-weight application suite built specifically
+  to be very low on CPU and RAM, while at the same time have an
+  appleaing look. CoreApps are a set of 21 applications built to
+  cater almost all the personal needs of a common user.
+  .
+  This packages contains the corekeyboard app, a virtual keyboard
+  one of the only two built using Qt (the other being kvkbd). Despite
+  being built using Qt, CoreKeyboard works on all DEs, platforms
+  and all text entry widgets.
+
+Package: corepad
+Source: coreapps
+Version: 4.2.0
+Architecture: amd64
+Maintainer: Marcus Britanicus <marcusbritanicus@gmail.com>
+Installed-Size: 240
+Depends: libc6 (>= 2.14), libcprime (>= 4.2.0), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5widgets5 (>= 5.10.0), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5)
+Filename: ./pool/main/c/corepad/corepad_4.2.0_amd64.deb
+Size: 69880
+MD5sum: 950c8b9e7cffb316ced054ef43cada92
+SHA1: 9f11739db01770ce19dbe254eb9c1edebc2824b1
+SHA256: 4888f8b1ebdf783d871320abbf7f7fe82a72292fec88a95ff46683a73d190530
+Section: utils
+Priority: optional
+Homepage: https://cubocore.org
+Description: A text editor for CoreApps
+  CoreApps is a light-weight application suite built specifically
+  to be very low on CPU and RAM, while at the same time have an
+  appleaing look. CoreApps are a set of 21 applications built to
+  cater almost all the personal needs of a common user.
+  .
+  This packages contains the corepad app, a a small but powerful
+  text-editor with syntax-highlighting support for a dozen or more
+  languages. With a powerful SH engine based on QSyntaxHighlighter,
+  it renders heavy codes as large as 20k LoC and above, almost
+  effortlessly.
+  .
+  By default CorePad provides support for 15 common languages, namely,
+  C, C++, CS, CSS, Desktop, Go, Html, Java, JS, MD, PHP, Python, sh,
+  and XML, and it is very easy to extend support for other languages.
+
+Package: corepaint
+Source: coreapps
+Version: 4.2.0
+Architecture: amd64
+Maintainer: Marcus Britanicus <marcusbritanicus@gmail.com>
+Installed-Size: 403
+Depends: libc6 (>= 2.14), libcprime (>= 4.2.0), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.4.0), libstdc++6 (>= 5)
+Filename: ./pool/main/c/corepaint/corepaint_4.2.0_amd64.deb
+Size: 92976
+MD5sum: fd41922285b63af0945ab225c7821261
+SHA1: 734def101f5d4816b389ce2fcf484e9aceb7c1b8
+SHA256: f1c63acfa062eec0f38c00df5f9d45950f9b6bc3e14f9077aeeee2b535f98029
+Section: utils
+Priority: optional
+Homepage: https://cubocore.org
+Description: A paint program for CoreApps
+  CoreApps is a light-weight application suite built specifically
+  to be very low on CPU and RAM, while at the same time have an
+  appleaing look. CoreApps are a set of 21 applications built to
+  cater almost all the personal needs of a common user.
+  .
+  This packages contains the corepaint app, a simple bitmap painting
+  software to produce very simple graphics. CorePaint began its simple
+  life as a rebrand of <https://github.com/Gr1N/EasyPaint/>,
+  slightly modified to meet the needs of CoreApps and efforts are
+  underway to rebuild it from scratch.
+
+Package: corepdf
+Source: coreapps
+Version: 4.2.0
+Architecture: amd64
+Maintainer: Marcus Britanicus <marcusbritanicus@gmail.com>
+Installed-Size: 191
+Depends: libc6 (>= 2.14), libcprime (>= 4.2.0), libgcc-s1 (>= 3.0), libpoppler-qt5-1 (>= 0.46.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.6.0~beta), libstdc++6 (>= 5), qtbase-abi-5-15-2
+Filename: ./pool/main/c/corepdf/corepdf_4.2.0_amd64.deb
+Size: 54064
+MD5sum: 811a0f2c9090ec953bed8d9a963d6956
+SHA1: 404d2c190d42ce5f7665cbbc17d3dc5e2e0f1dd8
+SHA256: 02a2b6994993233ccb7a38cb44fc4cc0c0f739040ee50b6ca774608747edef74
+Section: utils
+Priority: optional
+Homepage: https://cubocore.org
+Description: PDf viewer for CoreApps
+  CoreApps is a light-weight application suite built specifically
+  to be very low on CPU and RAM, while at the same time have an
+  appleaing look. CoreApps are a set of 21 applications built to
+  cater almost all the personal needs of a common user.
+  .
+  This packages contains the corepdf app, a simple application
+  to view pdf files. It is built on top of poppler-qt5.
+
+Package: corepins
+Source: coreapps
+Version: 4.2.0
+Architecture: amd64
+Maintainer: Marcus Britanicus <marcusbritanicus@gmail.com>
+Installed-Size: 141
+Depends: libc6 (>= 2.14), libcprime (>= 4.2.0), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.14.1), libstdc++6 (>= 5)
+Filename: ./pool/main/c/corepins/corepins_4.2.0_amd64.deb
+Size: 37988
+MD5sum: b3fc4981b9a77a9d32b76f0faabd227f
+SHA1: f901ed6a48e110cbb77d040af4f692d30d55a106
+SHA256: 69fbc74e4fe39f827688d4fe7ba99e396f7b6f8522c3716c0d764be617ce440b
+Section: utils
+Priority: optional
+Homepage: https://cubocore.org
+Description: A Bookmarks manager for CoreApps
+  CoreApps is a light-weight application suite built specifically
+  to be very low on CPU and RAM, while at the same time have an
+  appleaing look. CoreApps are a set of 21 applications built to
+  cater almost all the personal needs of a common user.
+  .
+  This packages contains the corepins app, a bookmarks manager for
+  CoreApps. CorePins provides a centralized bookmarks managerment
+  system for the CoreApps Application Suite. With CorePins one can
+  view bookmarks made using any of the CoreApps, and also modify and
+  delete them effortlessly.
+
+Package: corepkit
+Source: coreapps
+Version: 4.2.0
+Architecture: amd64
+Maintainer: Marcus Britanicus <marcusbritanicus@gmail.com>
+Installed-Size: 33
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libstdc++6 (>= 4.1.1)
+Filename: ./pool/main/c/corepkit/corepkit_4.2.0_amd64.deb
+Size: 7088
+MD5sum: 9129f441547c3c1a38ace9f7e298c7f4
+SHA1: edc29066e310886d9d214a995a754e3bd6d1801f
+SHA256: a78ea9fa852e8986cae03e1c0ad54b5895eee5c4cfea860151bdbec3c70e8058
+Section: utils
+Priority: optional
+Homepage: https://cubocore.org
+Description: A text editor for CoreApps
+  CoreApps is a light-weight application suite built specifically
+  to be very low on CPU and RAM, while at the same time have an
+  appleaing look. CoreApps are a set of 21 applications built to
+  cater almost all the personal needs of a common user.
+  .
+  CorePKit is a tiny cli tool for policykit based implementation
+  to modify the brightness of the screen.
+
+Package: corerenamer
+Source: coreapps
+Version: 4.2.0
+Architecture: amd64
+Maintainer: Marcus Britanicus <marcusbritanicus@gmail.com>
+Installed-Size: 165
+Depends: libc6 (>= 2.14), libcprime (>= 4.2.0), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.2.0~alpha1), libstdc++6 (>= 5)
+Filename: ./pool/main/c/corerenamer/corerenamer_4.2.0_amd64.deb
+Size: 45416
+MD5sum: b676f5d7537ebb3c50b10493212afc44
+SHA1: 08eedce0d98314289a8029fcbf0f4f23aa479eb0
+SHA256: 6e45477db3a1f21d0037c1f8bc590a2277932c793e7160fec548959ee1054556
+Section: utils
+Priority: optional
+Homepage: https://cubocore.org
+Description: A batch rename unitlity for CoreApps
+  CoreApps is a light-weight application suite built specifically
+  to be very low on CPU and RAM, while at the same time have an
+  appleaing look. CoreApps are a set of 21 applications built to
+  cater almost all the personal needs of a common user.
+  .
+  This packages contains the corerenamer app, a handy batch
+  renaming tool for people who have to regularly handle a large
+  number of tools.
+
+Package: coreshot
+Source: coreapps
+Version: 4.2.0
+Architecture: amd64
+Maintainer: Marcus Britanicus <marcusbritanicus@gmail.com>
+Installed-Size: 135
+Depends: libc6 (>= 2.4), libcprime (>= 4.2.0), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.2.0), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5), libx11-6
+Filename: ./pool/main/c/coreshot/coreshot_4.2.0_amd64.deb
+Size: 37284
+MD5sum: f17a354ddc4760c5eea1b033152682ba
+SHA1: aa130fae67045f8d3421aa4749380c18fe7355e5
+SHA256: b16a16e5521a19287f6cb0150b511b7152f7f08c02a5aed2bf3aa9af08d17c78
+Section: utils
+Priority: optional
+Homepage: https://cubocore.org
+Description: Screenshot capture utility for CoreApps
+  CoreApps is a light-weight application suite built specifically
+  to be very low on CPU and RAM, while at the same time have an
+  appleaing look. CoreApps are a set of 21 applications built to
+  cater almost all the personal needs of a common user.
+  .
+  This packages contains the coreshot app, a simple app that can
+  capture images of the screen. It can capture the whole screen,
+  a specified region, an individual window, or only part of a window.
+
+Package: corestats
+Source: coreapps
+Version: 4.2.0
+Architecture: amd64
+Maintainer: Marcus Britanicus <marcusbritanicus@gmail.com>
+Installed-Size: 313
+Depends: libc6 (>= 2.14), libcprime (>= 4.2.0), libcsys (>= 4.2.0), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.9.0~beta) | libqt5gui5-gles (>= 5.9.0~beta), libqt5widgets5 (>= 5.2.0~alpha1), libsensors5 (>= 1:3.5.0), libstdc++6 (>= 5)
+Filename: ./pool/main/c/corestats/corestats_4.2.0_amd64.deb
+Size: 87356
+MD5sum: bc6882cc8da889302b6f4799bcbfbbd2
+SHA1: 0b92573c44ea271f09de518b4bf668d8ccb97ce8
+SHA256: 5b6d56f523d1793295f2b32071228a45c0f4d8f837875ba5b90d0b46daf98908
+Section: utils
+Priority: optional
+Homepage: https://cubocore.org
+Description: A system information viewer for CoreApps
+  CoreApps is a light-weight application suite built specifically
+  to be very low on CPU and RAM, while at the same time have an
+  appleaing look. CoreApps are a set of 21 applications built to
+  cater almost all the personal needs of a common user.
+  .
+  This packages contains the corestats app, a system statistics
+  viewer. You can monitor the CPU, RAM, Network and Disk IO
+  statistics fom here. It is also possible to view the device info,
+  and mount or unmount removable devices, view battery statistics,
+  and get information about the display.
+
+Package: corestuff
+Source: coreapps
+Version: 4.2.0
+Architecture: amd64
+Maintainer: Marcus Britanicus <marcusbritanicus@gmail.com>
+Installed-Size: 845
+Depends: libc6 (>= 2.14), libcprime (>= 4.2.0), libcsys (>= 4.2.0), libgcc-s1 (>= 3.0), libkf5globalaccel-bin, libkf5globalaccel5 (>= 4.96.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.10.0) | libqt5gui5-gles (>= 5.10.0), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5), libx11-6 (>= 2:1.2.99.901), libxcb-ewmh2 (>= 0.4.1), libxcb1, libxcomposite1 (>= 1:0.4.5), libxi6 (>= 2:1.2.99.4)
+Filename: ./pool/main/c/corestuff/corestuff_4.2.0_amd64.deb
+Size: 194552
+MD5sum: 04d92ae331f54fa8d6e1741be6982896
+SHA1: 0c3e8c322e7c061f6f03ae08dd95f187a7d9f85f
+SHA256: 99b651005496bd9a60cc91eb6d6fb0f8515bc305076ebb5581a0781147f5390a
+Section: utils
+Priority: optional
+Homepage: https://cubocore.org
+Description: A session manager for CoreApps
+  CoreApps is a light-weight application suite built specifically
+  to be very low on CPU and RAM, while at the same time have an
+  appleaing look. CoreApps are a set of 21 applications built to
+  cater almost all the personal needs of a common user.
+  .
+  This packages contains the corestuff app, a simple application
+  to manage a CoreApps session. This program is not yet mature
+  enough to be used in a production environment.
+
+Package: coreterminal
+Source: coreapps
+Version: 4.2.0
+Architecture: amd64
+Maintainer: Marcus Britanicus <marcusbritanicus@gmail.com>
+Installed-Size: 181
+Depends: libc6 (>= 2.4), libcprime (>= 4.2.0), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5serialport5 (>= 5.9.0), libqt5widgets5 (>= 5.0.2), libqtermwidget5-0 (>= 0.8.0), libstdc++6 (>= 5)
+Filename: ./pool/main/c/coreterminal/coreterminal_4.2.0_amd64.deb
+Size: 47776
+MD5sum: a6193f1bb61c64658205ed291d420cf8
+SHA1: 5ae7125be2b0eedda5b5f5646b3e9bff7c63fcb4
+SHA256: 59f58f0f7f95bd3416cc4a0b6713c52f8e91fa26c0fa1a5c809205a548f7914b
+Section: utils
+Priority: optional
+Homepage: https://cubocore.org
+Description: A terminal emulator for CoreApps
+  CoreApps is a light-weight application suite built specifically
+  to be very low on CPU and RAM, while at the same time have an
+  appleaing look. CoreApps are a set of 21 applications built to
+  cater almost all the personal needs of a common user.
+  .
+  This packages contains the coreterminal app, a terminal emulator
+  based on QTermWidget (https://github.com/lxqt/qtermwidget).
+
+Package: coretime
+Source: coreapps
+Version: 4.2.0
+Architecture: amd64
+Maintainer: Marcus Britanicus <marcusbritanicus@gmail.com>
+Installed-Size: 770
+Depends: libc6 (>= 2.14), libcprime (>= 4.2.0), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5multimedia5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5)
+Filename: ./pool/main/c/coretime/coretime_4.2.0_amd64.deb
+Size: 426640
+MD5sum: 9845f9e657a8b6838e61307fb43ce1ec
+SHA1: 203a151d1eec6fe439613e3ab48b9020a94d85d2
+SHA256: 0dfe07e31f0be4d56353be2763e965927a858f5b63547b93a540b77ab71eac80
+Section: utils
+Priority: optional
+Homepage: https://cubocore.org
+Description: A calendar for CoreApps
+  CoreApps is a light-weight application suite built specifically
+  to be very low on CPU and RAM, while at the same time have an
+  appleaing look. CoreApps are a set of 21 applications built to
+  cater almost all the personal needs of a common user.
+  .
+  This packages contains the coretime app, a very simple Clock
+  and Calendar application which shows a clock, supports alarms,
+  sports a stop watch and a timer.
+
+Package: coreuniverse
+Source: coreapps
+Version: 4.2.0
+Architecture: amd64
+Maintainer: Marcus Britanicus <marcusbritanicus@gmail.com>
+Installed-Size: 331
+Depends: libc6 (>= 2.14), libcprime (>= 4.2.0), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.14.1), libstdc++6 (>= 5)
+Filename: ./pool/main/c/coreuniverse/coreuniverse_4.2.0_amd64.deb
+Size: 150624
+MD5sum: 0e4957c078f01414e963994a86ddb961
+SHA1: 796200ae5220b5dadafaf5c516098a04f6a4888e
+SHA256: d988b38a915d0813786353a9b5156effea0d0c32397489b0733d0b57ed789056
+Section: utils
+Priority: optional
+Homepage: https://cubocore.org
+Description: A CoreApps information viewer
+  CoreApps is a light-weight application suite built specifically
+  to be very low on CPU and RAM, while at the same time have an
+  appleaing look. CoreApps are a set of 21 applications built to
+  cater almost all the personal needs of a common user.
+  .
+  This package contains the coreuniverse app, to show information
+  about CoreApps.
+
 Package: cutefish-calculator
 Version: 0.6-1
 Architecture: amd64
@@ -925,6 +1459,213 @@ Description: X11 keyboard indicator and switcher
  The applet is written in C and uses the GTK+ library and
  therefore does not depend on any GNOME components.
 
+Package: libarchiveqt
+Source: coreapps
+Version: 4.2.0
+Architecture: amd64
+Maintainer: Marcus Britanicus <marcusbritanicus@gmail.com>
+Installed-Size: 358
+Depends: libarchive13 (>= 3.0.4), libbz2-1.0, libc6 (>= 2.14), libgcc-s1 (>= 3.0), liblzma5 (>= 5.1.1alpha+20120614), libqt5core5a (>= 5.15.1), libstdc++6 (>= 5), zlib1g (>= 1:1.1.4)
+Recommends: lzop, lrzip
+Filename: ./pool/main/l/libarchiveqt/libarchiveqt_4.2.0_amd64.deb
+Size: 56820
+MD5sum: 503f5d487c3cb165aca2e64b26e16361
+SHA1: 55c385a2386ebfeb14e483cf031607e07f98be0a
+SHA256: 56cae585f6b004638238e720ca6d01d09e14e5fa3ed12eefa57b53aaef466ae0
+Section: utils
+Priority: optional
+Multi-Arch: same
+Homepage: https://cubocore.org
+Description: A Qt based archiving solution with libarchive backend
+ This is a simple archiving library for Qt.
+ Currently it supports the following archive/compression formats
+  * Gzip
+  * BZip2
+  * LZMA2
+  * LZip
+  * LZ4
+  * Cpio
+  * AR
+  * ISO9660
+  * PAX
+  * Shar
+  * Zip
+  * 7Zip
+  * Tar
+ .
+ This package provides the libarchive-qt shared library.
+
+Package: libarchiveqt-bin
+Source: coreapps
+Version: 4.2.0
+Architecture: amd64
+Maintainer: Marcus Britanicus <marcusbritanicus@gmail.com>
+Installed-Size: 126
+Depends: libarchive13 (>= 3.0.4), libbz2-1.0, libc6 (>= 2.14), libgcc-s1 (>= 3.0), liblzma5 (>= 5.1.1alpha+20120614), libqt5core5a (>= 5.15.1), libstdc++6 (>= 5), zlib1g (>= 1:1.1.4)
+Recommends: lzop, lrzip
+Filename: ./pool/main/l/libarchiveqt/libarchiveqt-bin_4.2.0_amd64.deb
+Size: 39904
+MD5sum: 0f25c7236412c366974a161d5d150478
+SHA1: 7d81e74468656fc59adf24a5f8e317ba146852a2
+SHA256: 209edd010f98c397dadfca60c824dfbb4ae37e53da108a668e633ec31c0ece2b
+Section: utils
+Priority: optional
+Multi-Arch: same
+Homepage: https://cubocore.org
+Description: A Qt based archiving solution with libarchive backend
+ This is a simple archiving library for Qt.
+ Currently it supports the following archive/compression formats
+  * Gzip
+  * BZip2
+  * LZMA2
+  * LZip
+  * LZ4
+  * Cpio
+  * AR
+  * ISO9660
+  * PAX
+  * Shar
+  * Zip
+  * 7Zip
+  * Tar
+ .
+ This package provides the standalone archiver binary.
+
+Package: libarchiveqt-dev
+Source: coreapps
+Version: 4.2.0
+Architecture: amd64
+Maintainer: Marcus Britanicus <marcusbritanicus@gmail.com>
+Installed-Size: 15
+Depends: libarchiveqt (= 4.2.0)
+Filename: ./pool/main/l/libarchiveqt/libarchiveqt-dev_4.2.0_amd64.deb
+Size: 3580
+MD5sum: 0c4b05ce5979bba788b82933b225fdce
+SHA1: c90c8944f37e12d0a49c18e1fea306ef94837be6
+SHA256: 9862ce376e3ab2ee647740add9c194462cb8aaf97cd76fe1e9afaf067766ece3
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://cubocore.org
+Description: A Qt based archiving solution with libarchive backend
+ This is a simple archiving library for Qt.
+ Currently it supports the following archive/compression formats
+  * Gzip
+  * BZip2
+  * LZMA2
+  * LZip
+  * LZ4
+  * Cpio
+  * AR
+  * ISO9660
+  * PAX
+  * Shar
+  * Zip
+  * 7Zip
+  * Tar
+ .
+ This package provides the files necessary for development with libarchive-qt.
+
+Package: libcprime
+Source: coreapps
+Version: 4.2.0
+Architecture: amd64
+Maintainer: Marcus Britanicus <marcusbritanicus@gmail.com>
+Installed-Size: 554
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5)
+Filename: ./pool/main/l/libcprime/libcprime_4.2.0_amd64.deb
+Size: 146404
+MD5sum: 068790299e310c78e200ba33cd1b1523
+SHA1: bccd3b73239f01d5a768cb0bdbbeab07d66d9e8e
+SHA256: 9ca2bf8eac62e97318c47b990d8cc9232b09754af898e22659b098456a392c2d
+Section: utils
+Priority: optional
+Multi-Arch: same
+Homepage: https://cubocore.org
+Description: Main library for CoreApps
+  CoreApps is a light-weight application suite built specifically
+  to be very low on CPU and RAM, while at the same time have an
+  appleaing look. CoreApps are a set of 21 applications built to
+  cater almost all the personal needs of a common user.
+  .
+  This is the library that contains the common functions and
+  classes required for the functioning of the CoreApps.
+
+Package: libcprime-dev
+Source: coreapps
+Version: 4.2.0
+Architecture: amd64
+Maintainer: Marcus Britanicus <marcusbritanicus@gmail.com>
+Installed-Size: 68
+Depends: libcprime (= 4.2.0)
+Filename: ./pool/main/l/libcprime/libcprime-dev_4.2.0_amd64.deb
+Size: 10208
+MD5sum: 8ee0f7e2c10ec5129babb2f59e5e2cb6
+SHA1: 9d555755f26e1c2f645998c71d3903adb3e1d3c7
+SHA256: 9a89dbe92c26aaac62567b52bed25c278652e940ebcd2d109405e4e265aa9d89
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://cubocore.org
+Description: Main library for CoreApps
+  CoreApps is a light-weight application suite built specifically
+  to be very low on CPU and RAM, while at the same time have an
+  appleaing look. CoreApps are a set of 21 applications built to
+  cater almost all the personal needs of a common user.
+  .
+  This is the dev packages that contains the headers and
+  required for the building components of CoreApps.
+
+Package: libcsys
+Source: coreapps
+Version: 4.2.0
+Architecture: amd64
+Maintainer: Marcus Britanicus <marcusbritanicus@gmail.com>
+Installed-Size: 204
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libstdc++6 (>= 5)
+Filename: ./pool/main/l/libcsys/libcsys_4.2.0_amd64.deb
+Size: 58272
+MD5sum: 46bb20c5c975ea5d796cb67f6d1bb868
+SHA1: 59433c824e8ff5160ad37012cc4faea0b4fae754
+SHA256: 0f8a8d945f7f7979134b1fabe9f8d536e3567007d9def7c1ff868c7023ccd895
+Section: utils
+Priority: optional
+Multi-Arch: same
+Homepage: https://cubocore.org
+Description: Library that provides systeminfo for CoreApps
+  CoreApps is a light-weight application suite built specifically
+  to be very low on CPU and RAM, while at the same time have an
+  appleaing look. CoreApps are a set of 21 applications built to
+  cater almost all the personal needs of a common user.
+  .
+  This is  the library that contains the common system info
+  classes required for the functioning of the CoreApps.
+
+Package: libcsys-dev
+Source: coreapps
+Version: 4.2.0
+Architecture: amd64
+Maintainer: Marcus Britanicus <marcusbritanicus@gmail.com>
+Installed-Size: 38
+Depends: libcsys (= 4.2.0)
+Filename: ./pool/main/l/libcsys/libcsys-dev_4.2.0_amd64.deb
+Size: 5632
+MD5sum: be8a0f1f6f5199e7ff49accaf667d7d2
+SHA1: fdbd05e652a0d42825e26fd6a5db913810137879
+SHA256: 6aac17384900b7dd852ccffab56f3a3e8eb29afd2eb17b5420c1976cd57f9a31
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://cubocore.org
+Description: Library that provides systeminfo for CoreApps
+  CoreApps is a light-weight application suite built specifically
+  to be very low on CPU and RAM, while at the same time have an
+  appleaing look. CoreApps are a set of 21 applications built to
+  cater almost all the personal needs of a common user.
+  .
+  This is  the library that contains the common system info
+  classes required for the functioning of the CoreApps.
+
 Package: libcutefish
 Version: 0.7
 Architecture: amd64
@@ -993,6 +1734,29 @@ Priority: optional
 Description: debug symbols for libcutefish
 Build-Ids: 029bc5170fc3508b99551719b379dfac19d34ab3 37da0655b50a7d62c2313ec7089f942a0d541a0d 892e1f38efcdf51fa5dd96cca183f801b4abbf61 a87871542d3b3c54af0fc2275b824d83afbcf577 d88b60636909182758e42d2be0b7a8501d746411 dcf3864ea0383296ca687307e9ba912edf55918c e0b0b3ca63871a3bd0abd0cecc688f3ad0f5674d
 
+Package: libicu67
+Source: icu
+Version: 67.1-7
+Architecture: amd64
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 33152
+Depends: libc6 (>= 2.29), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2)
+Breaks: libiculx63 (<< 63.1-5), openttd (<< 1.8.0-2~)
+Replaces: libiculx63 (<< 63.1-5)
+Filename: ./pool/main/l/libicu67/libicu67_67.1-7_amd64.deb
+Size: 8622256
+MD5sum: 154f886196a36b1276b32899b6735680
+SHA1: eb48a4450b634ba3bba9d2d172445da66786026f
+SHA256: 2bf5c46254f527865bfd6368e1120908755fa57d83634bd7d316c9b3cfd57303
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://www.icu-project.org
+Description: International Components for Unicode
+ ICU is a C++ and C library that provides robust and full-featured
+ Unicode and locale support.  This package contains the runtime
+ libraries for ICU.
+
 Package: libsnapd-glib1
 Source: snapd-glib
 Version: 1.58-4
@@ -1044,6 +1808,30 @@ Description: Qt snapd library
  for cloud, servers, desktops and the internet of things.
  .
  snapd-qt is a wrapper library for snapd-glib for Qt applications.
+
+Package: shareit
+Source: coreapps
+Version: 4.2.0
+Architecture: amd64
+Maintainer: Marcus Britanicus <marcusbritanicus@gmail.com>
+Installed-Size: 274
+Depends: libc6 (>= 2.14), libcprime (>= 4.2.0), libgcc-s1 (>= 3.0), libqt5bluetooth5 (>= 5.6.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2)
+Filename: ./pool/main/s/shareit/shareit_4.2.0_amd64.deb
+Size: 127240
+MD5sum: 1f1779afe2c0e7200da41c55c48b0485
+SHA1: a551796f42c30cb304ea341497ae1cefd156e336
+SHA256: 2791b4751eb0740fe2d8a48d049e31971340f8e35df0ad34c6f35dfd329dc30d
+Section: utils
+Priority: optional
+Homepage: https://cubocore.org
+Description: A CoreApps file sharing app
+  CoreApps is a light-weight application suite built specifically
+  to be very low on CPU and RAM, while at the same time have an
+  appleaing look. CoreApps are a set of 21 applications built to
+  cater almost all the personal needs of a common user.
+  .
+  This package contains the shareIT app, to share files across
+  services.
 
 Package: texteditor
 Version: 0.7-1
